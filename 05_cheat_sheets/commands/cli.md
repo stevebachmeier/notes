@@ -20,5 +20,5 @@ File (-) or folder (d) / owner permissions / group permissions / world permissio
 - World (o): anyone who has access privileges to the system
 
 ## octal representation
-Ex: `chmod 754 <filename>`
-![Alt text](notes/z_pictures/octal_representation.png)
+Ex: `chmod754 <filename>`
+![Alt text](https://github.com/stevebachmeier/notes/blob/main/z_pictures/octal_representation.png)
