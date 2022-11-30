@@ -1,17 +1,15 @@
-# Summary
-
-## Nov 28
+# Nov 28
 - requests to look into data from syl; released vivarium_inputs; spent some time looking into failing VI pytests
 - read prl docs; working on broken vivarium_inputs pytests
 - xxx
 - xxx
 - xxx
 
-## Nov 21
+# Nov 21
 - worked on bmi artifact; restarted polypill v&v which timed out
 - finished bmi artifact and implementation; started observer/postprocessing
 
-## Old
+# Old
 Nov 14	M: merged outreach effect, observer, post-processing; bug found/logged in vph default_configuration for LinearScaleUp;
 	T: Started polypill
 	W: finished polypill impelemtation, observers, and postprocessing
