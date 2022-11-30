@@ -2,16 +2,18 @@
 
 ## 101
 - [ ] BMI risk_effect equations still refernce rr_id 108
-- [ ] The rrs and pafs equations don't seem to match exactly what vivarium does
-- [ ] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
-- [ ] Greg requested angina be removed
-
-Proposal: 
-1. Implement bmi
-2. Implement fpg
-3. mediation/correlation
-
-To ask syl: there are docs for mediation but not correlation. What's the plan there?
+- [x] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
+	- she requirested low threshold of 5
+- [x] Greg requested angina be removed
+	- implemented for now by just commenting out from model_spec
+- [ ] Confirm HF transition rates in new docs
+    - 1: denominator is missing prev_residual_HF
+        - What we're doing is starting with incidence and then scaling down (dividing) by the fraction of population that can actually go to the state of interest, ie 1 - <states that cannot transition>
+        - when she moved the HF_residual model into this one she didn't update the equation
+    - 2:
+    - 3: 
+    - 4: 
+- [ ] Have syl walk through equations
 
 ---
 
