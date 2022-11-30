@@ -21,4 +21,4 @@ File (-) or folder (d) / owner permissions / group permissions / world permissio
 
 ## octal representation
 Ex: `chmod 754 <filename>`
-![Alt text](vscode-remote://ssh-remote%2Bslurm/mnt/share/homes/sbachmei/repos/notes/z_pictures/octal_representation.png)
+![Alt text](z_pictures/octal_representation.png)
