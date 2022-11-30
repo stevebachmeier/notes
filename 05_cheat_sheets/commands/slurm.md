@@ -1,0 +1,9 @@
+| command | description | example
+|-|-|-
+| sbatch | submit a job | `sbatch --mem 1G -c 1 -t 10:00:00 --parsable -A proj_covid -p long.q -e ~/scratch/%x.e%j -o ~/scratch/%x.o%j -J t04 --wrap "date; echo 'sleeping 5 seconds'; sleep 5; date"`
+| srun | interactive job
+| squeue | job status
+| sacct | finished job status
+| qfree | availaability of different queues
+| qhosts | details of specific nodes
+| qjobs | similar to qstat | `Show all users on a queue: qjobs --queue <xxx.q> --user "*"`
