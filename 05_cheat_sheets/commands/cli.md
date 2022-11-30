@@ -21,4 +21,5 @@ File (-) or folder (d) / owner permissions / group permissions / world permissio
 
 ## octal representation
 Ex: `chmod754 <filename>`
-![Alt text](https://github.com/stevebachmeier/notes/blob/main/z_pictures/octal_representation.png)
+ 
+![](https://github.com/stevebachmeier/notes/blob/main/z_pictures/octal_representation.png)
