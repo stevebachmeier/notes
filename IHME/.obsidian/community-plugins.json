@@ -3,5 +3,7 @@
   "obsidian-emoji-toolbar",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "oz-clear-unused-images",
+  "obsidian-image-toolkit"
 ]
