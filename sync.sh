@@ -23,4 +23,5 @@ echo "Changing back to original dir"
 cd -
 
 echo ""
-echo "Finished Syncing"
+echo "*** Finished syncing ***"
+echo ""
