@@ -1,8 +1,8 @@
 # Nov 28
 - requests to look into data from syl; released vivarium_inputs; spent some time looking into failing VI pytests
 - read prl docs; working on broken vivarium_inputs pytests
-- xxx
-- xxx
+- prl docs; pytests; looking into note-taking
+- reviewed heart failure; pytests
 - xxx
 
 # Nov 21
