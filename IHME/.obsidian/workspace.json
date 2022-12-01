@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "1509d4f2756d44e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "58499b7d0694c2e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb5d638e68c1fd21",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "25fc70fd6a361ad1",
+    "type": "split",
+    "children": [
+      {
+        "id": "564a994e8775848d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbb46da74b0551ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e8d491c4d2ed33c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03fb8fbb7aed9928",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f0772871711b931d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f1ad28ff64303da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "635c73373ad0c648",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9562812ef764560e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8eaf97894e6d4ef5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee2600e807da2ceb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "46d954b5923afe49",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fb5d638e68c1fd21",
+  "lastOpenFiles": [
+    "05 Cheat sheets/Commands/cli.md",
+    "05 Cheat sheets/Workflows/SSH.md",
+    "05 Cheat sheets/Workflows/Release repos.md",
+    "05 Cheat sheets/Workflows/Conda envs.md",
+    "05 Cheat sheets/Workflows/jupyter notebook.md",
+    "05 Cheat sheets/Commands/vim.md",
+    "05 Cheat sheets/Commands/tmux.md",
+    "05 Cheat sheets/Commands/slurm.md",
+    "04 One-ones/Rajan.md",
+    "03 Projects/PRL/Onboarding.md"
+  ]
+}
