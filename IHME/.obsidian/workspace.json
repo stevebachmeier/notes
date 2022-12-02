@@ -11,15 +11,25 @@
             "id": "01ed31d6bec1a960",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b94dd3641c714f72",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
+                "file": "02 Projects/CVD/20221002 Outreach.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 424.5
   },
   "right": {
     "id": "f0772871711b931d",
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
+                "file": "02 Projects/CVD/20221002 Outreach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
+                "file": "02 Projects/CVD/20221002 Outreach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md"
+                "file": "02 Projects/CVD/20221002 Outreach.md"
               }
             }
           },
@@ -145,17 +155,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01ed31d6bec1a960",
+  "active": "b94dd3641c714f72",
   "lastOpenFiles": [
-    "04 Cheat sheets/Commands/slurm.md",
+    "02 Projects/CVD/Standups/20221104.md",
+    "z_attachments/Pasted image 20221201190027.png",
+    "z_attachments/Pasted image 20221201190027 1.png",
+    "z_attachments/Pasted image 20221201202610.png",
+    "z_attachments/Pasted image 20221201182734.png",
     "04 Cheat sheets/Commands/cli.md",
+    "04 Cheat sheets/Commands/slurm.md",
     "04 Cheat sheets/Workflows/Conda envs.md",
     "Weekly retro.md",
-    "Tasks.md",
-    "Quick.md",
-    "03 One-ones/Rajan.md",
-    "02 Projects/PRL/Onboarding.md",
-    "02 Projects/CVD/20221123 Heart failure.md",
-    "02 Projects/CVD/Standups/20221201.md"
+    "Tasks.md"
   ]
 }

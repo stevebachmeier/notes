@@ -26,8 +26,6 @@ File (-) or folder (d) / owner permissions / group permissions / world permissio
 ## octal representation
 
 Ex: `chmod 754 <filename>`
-
-![[Pasted image 20221201190027.png]]
- 
 ![](https://github.com/stevebachmeier/notes/blob/main/z_pictures/octal_representation.png)
 
+![[../../z_attachments/Pasted image 20221201202610.png]]
