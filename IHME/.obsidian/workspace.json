@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Projects/CVD/20221002 Outreach.md",
+                "file": "Quick.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Projects/CVD/20221002 Outreach.md",
+                "file": "Quick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Projects/CVD/20221002 Outreach.md",
+                "file": "Quick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Projects/CVD/20221002 Outreach.md"
+                "file": "Quick.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "b94dd3641c714f72",
   "lastOpenFiles": [
+    "z_attachments/Pasted image 20221201182734.png",
+    "02 Projects/CVD/20221002 Outreach.md",
     "02 Projects/CVD/Standups/20221104.md",
     "z_attachments/Pasted image 20221201190027.png",
     "z_attachments/Pasted image 20221201190027 1.png",
     "z_attachments/Pasted image 20221201202610.png",
-    "z_attachments/Pasted image 20221201182734.png",
     "04 Cheat sheets/Commands/cli.md",
     "04 Cheat sheets/Commands/slurm.md",
     "04 Cheat sheets/Workflows/Conda envs.md",
-    "Weekly retro.md",
-    "Tasks.md"
+    "Weekly retro.md"
   ]
 }
