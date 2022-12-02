@@ -10,5 +10,3 @@ Treatment component shold manage the multiplier - make new columns for each of t
 
 Proposal: SBPRisk component creates a new pipeline "raw_sbp_exposure"
 - It will 
-
-#cvd #treatment 

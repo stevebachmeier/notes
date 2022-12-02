@@ -22,9 +22,11 @@
 - `ls`: list sessions
 
 # FLAGS
-- `-s <name>`: give session a <name>
-- `-t <name>`: target session with <name>
+- `-s <name>`: give session a \<name>
+- `-t <name>`: target session with \<name>
 
 # EXAMPLES
 - `tmux new -s singR`: open a new session named "singR"
 - `tmux attach-session -t singR`: attach to the "singR" session
+
+#Learning/Commands 

@@ -18,4 +18,5 @@ Docs (out of date): https://ihmeuw.github.io/vivarium_development/docs/build/htm
     3. Wait for automated tests to clear (python 3.6, 3.7, 3.8)
     4. Merge to main (do not need to get approvals)
     5. Click the "draft new release" button, give it the correct version, click "generate release notes"
-		
+
+#Learning/Workflows 

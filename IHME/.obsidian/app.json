@@ -2,5 +2,9 @@
   "promptDelete": false,
   "attachmentFolderPath": "z_attachments",
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true
 }

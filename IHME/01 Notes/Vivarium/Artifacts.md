@@ -8,5 +8,3 @@ Places to update for adding new data to an artifact
     - Useful to test these in jupyter 
 - (OPTIONAL) constants.models.py
     - ???
-
-#vivarium #artifact 

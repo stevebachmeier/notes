@@ -21,3 +21,4 @@ Being given access to a service user svccovidci.
 1. Copy the cluster public key from /ihme/homes/sbachmei/.ssh/id_rsa.pub
 2. Having someone w/ access to the user (ie infra) to add that public key to the service user's authorized_keys file at /ihme/homes/svccovidci/.ssh/authorized_keys
 
+#Learning/Workflows 

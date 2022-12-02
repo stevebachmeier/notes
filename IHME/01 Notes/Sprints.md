@@ -1,22 +1,19 @@
 # Sprint notes
 
 ## 101
-- [ ] BMI risk_effect equations still refernce rr_id 108
+- [x] BMI risk_effect equations still refernce rr_id 108 ✅ 2022-12-02
 - [x] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
 	- she requirested low threshold of 5
 - [x] Greg requested angina be removed
 	- implemented for now by just commenting out from model_spec
 - [ ] Confirm HF transition rates in new docs
-    - 1: denominator is missing prev_residual_HF
-        - What we're doing is starting with incidence and then scaling down (dividing) by the fraction of population that can actually go to the state of interest, ie `1 - <states that cannot transition>``
-        - when she moved the HF_residual model into this one she didn't update the equation
-    - 2:
-    - 3: 
-    - 4: 
-- [ ] Have syl walk through equations
+- [x] Have syl walk through equations ✅ 2022-12-02
+
+#Tasks/Todo 
 
 ---
 
+# Archived
 ## 100
 - [x] Are there separate outreach programs for each medication type (ie outreach for sbp adherence and ldlc adherence independently)?
 	- Syl: No, its the same program. The way the math works out the percents are a little different but same program
@@ -27,7 +24,7 @@
 * Is it overly optimistic that a simulant would forever be more adherent based on outreach? Or is the implementation of outreach in real life such that they get called more than once?
 	- Yes it's optimistic but it's fine
 - [x] To clarify, the coverage values (eg 50% coverage) applies to the total population, correct? It's NOT the percentage of everyone who makes it to the outreach block gets put on the program (b/c that would quickly converge on 100% coverage)
-	Correct. Use a propensity column and base coverage on that (ie in the 50% scenario the maximum percetnage of the total population that could possibly be enrolled is 50%)
+  Correct. Use a propensity column and base coverage on that (ie in the 50% scenario the maximum percetnage of the total population that could possibly be enrolled is 50%)
 * What happens for someone on one medication but not the other and they get enrolled in outreach? Odes it update the adherence to both the medication they're currently on as well as the one they're not (but might get put on later)?
 	- She says it's up to me to implement, though if it's a hospital-level intervention then someone should be on the intervention for all of the meds
 * Is the polypill effect as written correct? Or is it going to be updated to the same approach as outreach?
@@ -38,6 +35,8 @@
 	- Rajan points out that what she'll get is nothing more than how many people are on the intervention at the end of the sim or when they died. That doesn't seem like what she wants. He thinks we need person-time. We'll want to know what impact being covered has on blood pressure and we'd need person-time to accurately measure that.
 
 - [x] Check with syl about ramp logic. If already medicated and non-adherent, they never make it to the outreach block
+
+#Tasks/Finished
 
 ---
 
@@ -71,6 +70,7 @@
 - [x] Confirm that new therapeutic inertias should be generated at each visit. Yes, every time
 	- [x] docs
 
+#Tasks/Finished 
 
 ---
 
@@ -98,6 +98,8 @@
 	- She agreed to if missed do not include in background https://ihme.slack.com/archives/C01N6LFMN3W/p1664304287568169
 - [x] What do to w/ non-adherent people initialized on medication? https://ihme.slack.com/archives/C01N6LFMN3W/p1664387779545669
 	- We should move them down to the lowest run of medcation ramp
+
+#Tasks/Finished 
 
 ---
 
@@ -127,4 +129,4 @@ CVD edge case clarifications:
 - [x] What do to w/ non-adherent people initialized on medication? https://ihme.slack.com/archives/C01N6LFMN3W/p1664387779545669
 	- We should move them down to the lowest run of medcation ramp
 
-#simscience #sprint 
+#Tasks/Finished 

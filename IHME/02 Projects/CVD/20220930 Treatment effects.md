@@ -22,4 +22,3 @@ NOTES about this:
     1. The source should be a function (eg "get_untreated_sbp_exposure_value()" that calls the gbd lookup table and then multiplies it by the multiplier column
     2. Other components - eg the treatment effect - will be the value_modifier
     
-#cvd #treatment 

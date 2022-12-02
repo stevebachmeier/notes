@@ -10,5 +10,3 @@ self._lifecycle.add_phase(
     loop=True,
 )
 ```
-
-#vivarium #lifecycle 

@@ -41,10 +41,10 @@ WEEK 1
 	- [x] Aly's video
 	- [x] James video 1
 	- [x] James video 2
-	- [ ] Hub
-	- [ ] Readthedocs (linked to from github) - pay particular attention to the tutorials! (skip biods if I want)
-	- [ ] README `vivarium_development` github
+	- [x] Hub ✅ 2022-12-02
+	- [x] Readthedocs (linked to from github) - pay particular attention to the tutorials! (skip biods if I want) ✅ 2022-12-02
+	- [x] README `vivarium_development` github ✅ 2022-12-02
 - [x] Run a vivarium simulation (simulate run)
-- [ ] Make_results
-- [ ] Run sim locally
-- [ ] Make_results locally
+- [x] Make_results ✅ 2022-12-02
+- [x] Run sim locally ✅ 2022-12-02
+- [x] Make_results locally ✅ 2022-12-02

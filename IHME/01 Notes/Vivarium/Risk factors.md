@@ -40,5 +40,4 @@ PAF_1…i = 1 - SUM_i=1_to_n (1 - PAF_i)
 - Assumes that PAFs are independent
 - Total PAF will be < 1
 
-
-#vivariumpublichealth #risk #riskfactor #paf #exposure #tmrel #relativerisk
+#Learning/Definitions

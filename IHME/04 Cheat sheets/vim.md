@@ -7,3 +7,4 @@
 `dd`: delete word
 `/`: Find mode
 
+#Learning/Commands 

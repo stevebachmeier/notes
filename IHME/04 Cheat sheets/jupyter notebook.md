@@ -13,3 +13,5 @@ Installing/setting up
 6. If missing, `touch .jupyter/jupyter_notebook_config.py`
 7. Add necessary config settings
 8. Set up keys with `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem`
+
+#Learning/Workflows 

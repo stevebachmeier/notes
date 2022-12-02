@@ -5,5 +5,3 @@
     - Requires_values: Any required pipelines (eg [self.propensity_pipeline_name])
     - Preferred_postprocessor: any extra postprocessors, eg get_exposure_post_processor which looks for bins to label a continouous exposure into)
     - Preferred_combiner: 
-
-#vivarium #pipeline

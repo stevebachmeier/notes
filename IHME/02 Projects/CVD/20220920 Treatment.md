@@ -7,5 +7,3 @@
     - Add an adherence score column
     - NOTE: state C - do not apply adherence value here b/c they aren't yet prescribed anything
     - Consider making adherence only as they are prescribed medication
-
-#cvd #treatment 

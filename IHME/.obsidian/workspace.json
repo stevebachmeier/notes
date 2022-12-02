@@ -4,32 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f9ea334f1f25c9bd",
+        "id": "d1ce52cb427f5ea0",
         "type": "tabs",
         "children": [
           {
-            "id": "01ed31d6bec1a960",
+            "id": "79249eabf34232d5",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "b94dd3641c714f72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#effects",
+                "query": "polypill",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 306.5
   },
   "right": {
     "id": "f0772871711b931d",
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/Commands/cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "04 Cheat sheets/Commands/cli.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 205.5
   },
-  "active": "b94dd3641c714f72",
+  "active": "fbb46da74b0551ee",
   "lastOpenFiles": [
-    "Weekly retro.md",
+    "02 Projects/CVD/Standups/20221201.md",
     "Tasks.md",
+    "Weekly retro.md",
+    "01 Notes/Sprints.md",
     "Quick.md",
-    "02 Projects/CVD/20221002 Outreach.md",
-    "02 Projects/CVD/20221018 Heart failure.md",
-    "z_attachments/Pasted image 20221201182734.png",
-    "02 Projects/CVD/Standups/20221104.md",
-    "z_attachments/Pasted image 20221201190027.png",
-    "z_attachments/Pasted image 20221201190027 1.png",
-    "z_attachments/Pasted image 20221201202610.png"
+    "Tasks Todo.md",
+    "03 One-ones/Rajan.md",
+    "04 Cheat sheets/SSH.md",
+    "04 Cheat sheets/Release repos.md",
+    "04 Cheat sheets/jupyter notebook.md"
   ]
 }

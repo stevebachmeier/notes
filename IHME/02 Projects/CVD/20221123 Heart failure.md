@@ -30,5 +30,3 @@ TODO:
         § There's a non-trivial chance that we're going to pause cvd in December and move me to PRL
             □ Why? B/c PRL is higher priority and we're behind
     - Backlog tickets
-
-#cvd #heartfailure 

@@ -5,5 +5,7 @@
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
   "oz-clear-unused-images",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "tag-wrangler",
+  "obsidian-task-archiver"
 ]

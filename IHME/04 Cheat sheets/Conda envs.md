@@ -23,3 +23,5 @@ E.g. create fresh covid env
 5. `pip install -e ~/repos/covid-input-snapshot/ --extra-index-url https://artifactory.ihme.washington.edu/artifactory/api/pypi/pypi-shared/simple/`
 6. `pip install -e ~/repos/covid-input-etl/ --extra-index-url https://artifactory.ihme.washington.edu/artifactory/api/pypi/pypi-shared/simple/`
 7. `pip install beautifulsoup4 matplotlib notebook pydeps pylint pytest viztracer`
+
+#Learning/Workflows
