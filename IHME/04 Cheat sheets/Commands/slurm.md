@@ -1,3 +1,5 @@
+#notes #slurm
+
 | command | description                       | example                                                                                                                                                                      |
 | ------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | sbatch  | submit a job                      | `sbatch --mem 1G -c 1 -t 10:00:00 --parsable -A proj_covid -p long.q -e ~/scratch/%x.e%j -o ~/scratch/%x.o%j -J t04 --wrap "date; echo 'sleeping 5 seconds'; sleep 5; date"` |

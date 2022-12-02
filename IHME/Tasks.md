@@ -1,4 +1,4 @@
 - [x] Double check new IHD + HF transition rate equations ✅ 2022-12-01
-- [ ] Fix the first pytest failure by having the validation function throw an error
-- [ ] PRL docs
-- [ ] Review updated polypill docs
+- [ ] 🔼 Fix the first pytest failure by having the validation function throw an error
+- [ ] ⏫  PRL docs
+- [ ] 🔼 Review updated polypill docs

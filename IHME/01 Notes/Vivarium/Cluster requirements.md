@@ -38,3 +38,5 @@ We don't want to upset folks AND we need to ake sure we're not requesting more t
 This is far larger than any of our cluster queues. 
 	
 Solution: Run incrementally, eg 10 draws at a time and leverage `psimulate expand` 
+
+#cluster #vivarium 

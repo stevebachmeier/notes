@@ -10,3 +10,5 @@ Syl met with Greg and has a proposal for heart failure.
         - They'd have the same risk of dying, etc. it's really just for the paper
     - HF from other
         - Same as above
+
+#cvd #heartfailure 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "855d10a4916a5421",
+        "id": "f9ea334f1f25c9bd",
         "type": "tabs",
         "children": [
           {
-            "id": "43560835dd976c50",
+            "id": "01ed31d6bec1a960",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick.md",
+                "file": "04 Cheat sheets/Commands/cli.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#effects",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick.md",
+                "file": "04 Cheat sheets/Commands/cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick.md",
+                "file": "04 Cheat sheets/Commands/cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick.md"
+                "file": "04 Cheat sheets/Commands/cli.md"
               }
             }
           },
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43560835dd976c50",
+  "active": "01ed31d6bec1a960",
   "lastOpenFiles": [
-    "Pasted image 20221201175816.png.md",
-    "Quick.md",
-    "z_attachments/Pasted image 20221201175816.png",
-    "z_attachments/Pasted image 20221201175745.png",
+    "04 Cheat sheets/Commands/slurm.md",
+    "04 Cheat sheets/Commands/cli.md",
+    "04 Cheat sheets/Workflows/Conda envs.md",
     "Weekly retro.md",
-    "z_attachments/Pasted image 20221201153834.png",
-    "z_attachments/Pasted image 20221201170308.png",
-    "z_attachments/Pasted image 20221201170439.png",
-    "Excalidraw/Drawing 2022-12-01 17.03.15.excalidraw.md",
-    "Excalidraw/Drawing 2022-12-01 16.58.44.excalidraw.md"
+    "Tasks.md",
+    "Quick.md",
+    "03 One-ones/Rajan.md",
+    "02 Projects/PRL/Onboarding.md",
+    "02 Projects/CVD/20221123 Heart failure.md",
+    "02 Projects/CVD/Standups/20221201.md"
   ]
 }

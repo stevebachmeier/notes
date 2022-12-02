@@ -126,3 +126,5 @@ CVD edge case clarifications:
 	- She agreed to if missed do not include in background https://ihme.slack.com/archives/C01N6LFMN3W/p1664304287568169
 - [x] What do to w/ non-adherent people initialized on medication? https://ihme.slack.com/archives/C01N6LFMN3W/p1664387779545669
 	- We should move them down to the lowest run of medcation ramp
+
+#simscience #sprint 

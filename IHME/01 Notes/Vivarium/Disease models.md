@@ -5,3 +5,4 @@
 - Update `compnents/disease.py`
     - Add new NewDisease() class as necessary.
 - Don't forget to import NewDisease in `components/__init.py__`
+ #vivarium  #disease 

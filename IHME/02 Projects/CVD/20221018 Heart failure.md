@@ -1,3 +1,5 @@
+#cvd #heartfailure
+
 # Heart failure
 
 There's aproblem w/ heart failure: we would be double-counting mortalilty (some from ihd and some from heart failure,, some of which is also attributed to ihd)
@@ -12,3 +14,5 @@ notes:
 - In a nutshell, anyone in post- or acute-MI state cannot transition into HF
     - We will need to modify the transition rate to be zero
     - Ie if you have MI, you cannot have heart failure and vice versa (if you have heart failure you cannot ever get MI)
+
+#cvd #heartfailure 

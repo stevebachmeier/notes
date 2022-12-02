@@ -41,3 +41,4 @@ PAF_1…i = 1 - SUM_i=1_to_n (1 - PAF_i)
 - Total PAF will be < 1
 
 
+#vivariumpublichealth #risk #riskfactor #paf #exposure #tmrel #relativerisk
