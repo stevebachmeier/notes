@@ -28,4 +28,4 @@ File (-) or folder (d) / owner permissions / group permissions / world permissio
 Ex: `chmod 754 <filename>`
 ![](https://github.com/stevebachmeier/notes/blob/main/z_pictures/octal_representation.png)
 
-![[../../z_attachments/Pasted image 20221201202610.png]]
+![](../../z_attachments/Pasted%20image%2020221201202610.png)
