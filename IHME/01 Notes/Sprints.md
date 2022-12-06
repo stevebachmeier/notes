@@ -3,10 +3,10 @@
 ## 101
 - [x] BMI risk_effect equations still refernce rr_id 108 ✅ 2022-12-02
 - [x] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
-	- she requirested low threshold of 5
+	- she requested min threshold of 5
 - [x] Greg requested angina be removed
 	- implemented for now by just commenting out from model_spec
-- [ ] Confirm HF transition rates in new docs
+- [ ] Confirm HF equations
 - [x] Have syl walk through equations ✅ 2022-12-02
 
 #Tasks/Todo 

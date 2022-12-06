@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d1ce52cb427f5ea0",
+        "id": "6c6b532b3f9bb870",
         "type": "tabs",
         "children": [
           {
-            "id": "79249eabf34232d5",
+            "id": "9d8b9fc8902b42eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "04 Cheat sheets/cli.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "polypill",
+                "query": "tag:#Tasks/Todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04 Cheat sheets/cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04 Cheat sheets/cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04 Cheat sheets/cli.md"
+              }
             }
           },
           {
@@ -130,23 +139,24 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 205.5,
+    "collapsed": true
   },
-  "active": "fbb46da74b0551ee",
+  "active": "9d8b9fc8902b42eb",
   "lastOpenFiles": [
-    "02 Projects/CVD/Standups/20221201.md",
+    "Quick.md",
+    "01 Notes/Sprints.md",
     "Tasks.md",
     "Weekly retro.md",
-    "01 Notes/Sprints.md",
-    "Quick.md",
-    "Tasks Todo.md",
-    "03 One-ones/Rajan.md",
+    "04 Cheat sheets/Passwords.md",
     "04 Cheat sheets/SSH.md",
-    "04 Cheat sheets/Release repos.md",
-    "04 Cheat sheets/jupyter notebook.md"
+    "04 Cheat sheets/slurm.md",
+    "04 Cheat sheets/Conda envs.md",
+    "02 Projects/CVD/20221123 Heart failure.md",
+    "03 One-ones/Rajan.md"
   ]
 }
