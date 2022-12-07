@@ -6,7 +6,7 @@
 - W: 
 - R: 
 - F: 
-- [ ] email
+- [ ] email end of week update
 
 # Archived
 ## Nov 21
