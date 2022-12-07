@@ -1,8 +1,8 @@
  [Weekly retro](Weekly%20retro.md)
 
 - [ ] Update polypill implementation per doc change
-	- [ ] Read all docs/PRs
-- [ ] Implement max BMI (refer to PR!)
+	- [x] Read all docs/PRs ✅ 2022-12-07
+- [x] Implement max BMI (refer to PR!) ✅ 2022-12-07
 - [ ] Read newest heart failure doc changes
 - [ ] [[01 Notes/Sprints.md#101]]
 
