@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6c6b532b3f9bb870",
+        "id": "15f92103709d752b",
         "type": "tabs",
         "children": [
           {
-            "id": "9d8b9fc8902b42eb",
+            "id": "5820ee8366ca82e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/CVD/Standups/20221201.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/CVD/Standups/20221201.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/CVD/Standups/20221201.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "02 Projects/CVD/Standups/20221201.md"
               }
             }
           },
@@ -146,17 +146,17 @@
     "width": 205.5,
     "collapsed": true
   },
-  "active": "9d8b9fc8902b42eb",
+  "active": "5820ee8366ca82e7",
   "lastOpenFiles": [
-    "Quick.md",
-    "04 Cheat sheets/cli.md",
+    "02 Projects/CVD/20221109 Heart failure.md",
+    "02 Projects/CVD/20221123 Heart failure.md",
     "01 Notes/Sprints.md",
     "Tasks.md",
-    "Weekly retro.md",
-    "04 Cheat sheets/Passwords.md",
-    "04 Cheat sheets/SSH.md",
-    "04 Cheat sheets/slurm.md",
-    "04 Cheat sheets/Conda envs.md",
-    "02 Projects/CVD/20221123 Heart failure.md"
+    "02 Projects/CVD/Standups/20221028.md",
+    "02 Projects/CVD/Standups/20221118.md",
+    "02 Projects/CVD/Standups/20221201.md",
+    "02 Projects/PRL/Onboarding.md",
+    "02 Projects/CVD/20221019 Treatment effects.md",
+    "Quick.md"
   ]
 }

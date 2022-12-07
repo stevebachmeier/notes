@@ -6,10 +6,10 @@
 	- she requested min threshold of 5
 - [x] Greg requested angina be removed
 	- implemented for now by just commenting out from model_spec
-- [ ] Confirm HF equations
+- [x] Confirm HF equations ✅ 2022-12-07
 - [x] Have syl walk through equations ✅ 2022-12-02
 
-#Tasks/Todo 
+#Tasks/Finished 
 
 ---
 

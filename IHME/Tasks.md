@@ -2,9 +2,8 @@
 
 - [ ] Update polypill implementation per doc change
 	- [x] Read all docs/PRs ✅ 2022-12-07
-- [x] Implement max BMI (refer to PR!) ✅ 2022-12-07
 - [ ] Read newest heart failure doc changes
-- [ ] [[01 Notes/Sprints.md#101]]
+	- Confirm equations
 
 # Archived
 
@@ -16,3 +15,5 @@
 - [[2022-12-W-50]]
 	- [x] Fix the first pytest failure by having the validation function throw an error ✅ 2022-12-06
 	- [x] Fix second pytest vivarium_inputs error ✅ 2022-12-06
+	- [x] Implement max BMI (refer to PR!) ✅ 2022-12-07
+	- [x] [[01 Notes/Sprints.md#101]] ✅ 2022-12-07
