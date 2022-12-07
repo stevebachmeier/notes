@@ -2,7 +2,7 @@
 
 # Dec 6
 - M: sick
-- T: 
+- T: bmi max threshold; polypill updates
 - W: 
 - R: 
 - F: 
