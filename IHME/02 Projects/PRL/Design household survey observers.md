@@ -31,4 +31,5 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 ## Tasks
 - [ ] Requirements gathering - make sure I understand what is needed
 	- ask for the noise functions excel sheet (working doc). Might be good to have now while designing
-- [ ] 
+
+#Designs/PRL/HouseholdSurveys
