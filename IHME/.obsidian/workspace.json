@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "f0772871711b931d",
@@ -160,7 +161,7 @@
     "width": 205.5,
     "collapsed": true
   },
-  "active": "fbb46da74b0551ee",
+  "active": "2407b653acec5dac",
   "lastOpenFiles": [
     "02 Projects/CVD/20221018 Heart failure.md",
     "Weekly retro.md",
