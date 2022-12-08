@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Projects/PRL/Checkins/20221208.md",
+                "file": "01 Notes/Vivarium/Risk factors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "relative risk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "f0772871711b931d",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Projects/PRL/Checkins/20221208.md",
+                "file": "01 Notes/Vivarium/Risk factors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Projects/PRL/Checkins/20221208.md",
+                "file": "01 Notes/Vivarium/Risk factors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Projects/PRL/Checkins/20221208.md"
+                "file": "01 Notes/Vivarium/Risk factors.md"
               }
             }
           },
@@ -147,8 +147,9 @@
     "width": 205.5,
     "collapsed": true
   },
-  "active": "fbb46da74b0551ee",
+  "active": "2407b653acec5dac",
   "lastOpenFiles": [
+    "02 Projects/PRL/Checkins/20221208.md",
     "02 Projects/PRL/Design household survey observers.md",
     "02 Projects/CVD/20221002 Outreach.md",
     "02 Projects/CVD/20220930 Treatment effects.md",
@@ -156,7 +157,6 @@
     "02 Projects/CVD/20221018 Heart failure.md",
     "02 Projects/CVD/20221109 Heart failure.md",
     "Weekly retro.md",
-    "02 Projects/PRL/Checkins/20221208.md",
     "02 Projects/CVD/20220902 Treatment.md",
     "01 Notes/Sprints.md"
   ]

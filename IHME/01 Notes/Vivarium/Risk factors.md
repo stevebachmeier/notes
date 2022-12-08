@@ -1,4 +1,4 @@
-Refer to the "risk factors overview" training video at I:\GBD Trainings and Recordings\2020 GBD Cycle trainings\Risk Factors Overview 1.22.2020\
+Refer to the "risk factors overview" training video at `I:\GBD Trainings and Recordings\2020 GBD Cycle trainings\Risk Factors Overview 1.22.2020\
 
 **Risk factor**: any exposure that leads to a loss of health in population; a variable associated with an increased risk of disease or infection
 
