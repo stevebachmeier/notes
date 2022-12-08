@@ -27,3 +27,8 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- Tahiya suggested looking at the current census observer
 	- **NOTE**: Beatrix confirmed that the currently-named `Observers` class is specifically the census observer
 	- Consider removing the state table portion - they used to use it but it's not used anymore (maybe?)
+
+## Tasks
+- [ ] Requirements gathering - make sure I understand what is needed
+	- ask for the noise functions excel sheet (working doc). Might be good to have now while designing
+- [ ] 
