@@ -44,6 +44,9 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- ❓Do we save each hdf out separately? Or append into a mega-dataset?
 	- ❓Would it be better to save out the data with household address as the index?
 		- This would result in a sparse dataset and also require reshaping the data at each time step - probably too slow
+	- ❓There's a note to oversample by 2x - is this still relevant?
+	- ❓are the sample rates pre- or post-response filtering? eg should the ACS survey results be 12k houeholds long or less due to non-reponse?
+	- ❓Are the non-response rates related at all to the household level?
 - Observer will need to also map all of the column IDs to strings, as appropriate (eg address ID to address)
 	- Should this happen once at each time step before observing? Or save out
 
@@ -53,15 +56,43 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 - stratifying by state if different states end up in different sims - do we need to post-aggregate those? Or is it just not an issue?
 
 ## Pseudocode
-I think a straightfoward implementation is appropriate here.
-```
-# setup
-# initialize
-# step forward
-# do things
-# on time_step_prepare: observe
+I think a straightfoward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
+``` python
+def setup(self, builder: Builder):
+	...
+	builder.event.register_listener(
+		"time_step__prepare",
+		self.on_time_step__prepare
+	)
+
+def on_time_step__prepare(self, event: Event) -> None:
+	...
+	pop = self.population_view([
+		household id, simulant id, first name, middle initial,
+		last name, age, dob, address, zip code, birthday,
+		guardian 1, guardian 2, guardian 1 address, 
+		guardian 2 address, group quarter
+	])
+
+	sampled_households = self.sample_households(pop)
+	respondents = pop.loc[sampled_households]
+	respondents = self.filter_non_responsive(respondents)
+	responses.to_hdf()
+
+def sample_households(pop) -> set[int]:
+	# Ramdomly sample 2x required households (per survey type)
+	# This may not need to be a function if it's simple enough
+	...
+	return sampled_households
+
+def filter_non_responsive(respondents) -> pd.DataFrame:
+	# Remove non-observers per the lookup table logic
+	...
+	return respondents
 ```
 
-
+ Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
+	- Stratifications: State
+	- Additional (for noise functions): birthday, tracked guardian(s), tracked guardian(s) address(es), type of group quarter 
 
 #Designs/PRL/HouseholdSurveys
