@@ -46,6 +46,7 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 		- This would result in a sparse dataset and also require reshaping the data at each time step - probably too slow
 	- ❓There's a note to oversample by 2x - is this still relevant?
 	- ❓are the sample rates pre- or post-response filtering? eg should the ACS survey results be 12k houeholds long or less due to non-reponse?
+	- ❓what exactly is needed by stratifying by state?
 	- ❓Are the non-response rates related at all to the household level?
 - Observer will need to also map all of the column IDs to strings, as appropriate (eg address ID to address)
 	- Should this happen once at each time step before observing? Or save out
