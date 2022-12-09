@@ -14,17 +14,9 @@ RT docs: https://vivarium-research.readthedocs.io/en/latest/models/concept_model
 
 Two household surveys: American Community Survey (ACS) and Current Population Survey (CPS)
 
-## Initial thoughts
-- Standard observers add values to the metrics pipeline which then gets turned into output.hdf. But this is different and I think I'd need totally unique `acs_survey` and `cps_survey` pipelines
-	- Rajan confirmed that standard vivarium observers are really nothing like what we need to be doing here - it's just a totally different thing. He suggested not even bothering spending time looking into how standard observers work in detail
-- I need to be thinking at a high level about what we want observers in general to look like
-	- Tahiya suggested looking at the current census observer
-	- **NOTE**: Beatrix confirmed that the currently-named `Observers` class is specifically the census observer
-	- Consider removing the state table portion - they used to use it but it's not used anymore (maybe?)
-
 # Design
 ## Requirements
-- [ ] As for the noise functions excel sheet (working doc)
+- [ ] Ask for the noise functions excel sheet (working doc)
 	- Keep this in mind when designing to allow for scaling later
 - Required columns:
 	- Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
@@ -35,9 +27,18 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 | ACS | 12k households | state | each time step | new random (ie independent) | mail/online, phone, and visits |  |
 | CPS | 60K households | state | each time step | new random (ie independent) | phone, visits  | non-standard survey mode; see note <sup>(a)</sup> |
 <sup>(a)</sup> This does not fit into the ACS framework that's used to calculate non-response rates (requires mail -> phone -> visit). This is accounted for by using the values for mail+phone+visit and then applying a 27.6$ non-response rate to that
+
+## Thoughts
+- **the standard vivarium observer approach is not applicable**
+	- Standard observers add values to the metrics pipeline which then gets turned into output.hdf. But this is different and I think I'd need totally unique `acs_survey` and `cps_survey` pipelines
+	- Rajan confirmed
+- I need to be thinking at a high level about what we want observers in general to look like
+	- Tahiya suggested looking at the current census observer
+	- **NOTE**: Beatrix confirmed that the currently-named `Observers` class is specifically the census observer
+	- Consider removing the state table portion - they used to use it but it's not used anymore (maybe?)
+- columns required are all standard state table columns (I think?)
 - 
 
-## Chat
 ## Pseudocode
 
 
