@@ -52,7 +52,7 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- ❓Are we sampling 60k and 12k per year or per time step?
 	- [ ] where does the 27.6% non-observant rate for cps survey come from?
 	- [ ] What columsn are required for cps survey? Seems like it should have job, etc
-	- [ ] Do the non-response rates need to be configurable? If so, then we should filter away on the backend.
+	- [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
 - Observer will need to also map all of the column IDs to strings, as appropriate (eg address ID to address)
 	- Should this happen once at each time step before observing? Or save out
 
