@@ -19,9 +19,10 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 - [ ] Ask for the noise functions excel sheet (working doc)
 	- Keep this in mind when designing to allow for scaling later
 - Required columns:
-	- Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
-	- Stratifications: State
+	- Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address (address id + puma + state); home zip code (not actually)
+	- Stratifications: State (unlinkely to be needed)
 	- Additional (for noise functions): birthday, tracked guardian(s), tracked guardian(s) address(es), type of group quarter 
+		- **Don't include until they need to be**
 - Sampling details:
 | survey | sample rate | stratifications | frequency | method | modes | note |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -40,7 +41,7 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 - columns required are all standard state table columns (I think?)
 - Basically every time step we need to sample the state table and save out
 	- Each time step -> 12,000x~17 (ACS) + 60,000x~17 (CPS)
-		- Using the larger, that's 17 columns by 60k x 365/28 x 30? years = >23M rows
+		- Using the larger, that's ~17(?) columns by 60k x 30? years x ~4 x 2 (oversampling) x (sharding factor) < size of population table?
 	- ❓Do we save each hdf out separately? Or append into a mega-dataset?
 	- ❓Would it be better to save out the data with household address as the index?
 		- This would result in a sparse dataset and also require reshaping the data at each time step - probably too slow
