@@ -1,9 +1,8 @@
  [Weekly retro](Weekly%20retro.md)
 
-- [ ] Update polypill implementation per doc change
+- [x] Update polypill implementation per doc change ✅ 2022-12-09
 	- [x] Read all docs/PRs ✅ 2022-12-07
-- [ ] Read newest heart failure doc changes
-	- Confirm equations
+- [ ] 
 
 # Archived
 

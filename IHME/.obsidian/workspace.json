@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "f0772871711b931d",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md"
+                "file": "Tasks.md"
               }
             }
           },
@@ -149,11 +148,11 @@
   },
   "active": "2407b653acec5dac",
   "lastOpenFiles": [
-    "02 Projects/PRL/Onboarding.md",
     "Weekly retro.md",
+    "02 Projects/PRL/Design household survey observers.md",
+    "02 Projects/PRL/Onboarding.md",
     "01 Notes/Vivarium/Risk factors.md",
     "02 Projects/PRL/Checkins/20221208.md",
-    "02 Projects/PRL/Design household survey observers.md",
     "02 Projects/CVD/20221002 Outreach.md",
     "02 Projects/CVD/20220930 Treatment effects.md",
     "02 Projects/CVD/20221019 Treatment effects.md",

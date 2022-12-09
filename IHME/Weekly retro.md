@@ -4,9 +4,9 @@
 - M: sick
 - T: bmi max threshold; polypill updates
 - W: polypill updates; read through prl/started designing
-- R: 
-- F: 
-- [ ] email end of week update
+- R: polypill design work
+- F: updated med coverage coefficients; polypill
+- [x] email end of week update ✅ 2022-12-09
 
 # Archived
 ## Nov 21

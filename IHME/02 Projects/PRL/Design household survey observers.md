@@ -40,9 +40,12 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- Consider removing the state table portion - they used to use it but it's not used anymore (maybe?)
 - columns required are all standard state table columns (I think?)
 - Basically every time step we need to sample the state table and save out
-	- Each time step -> 12,000x~17 (ACS) + 60,000x~17 (CPS)
-		- Using the larger, that's ~17(?) columns by 60k x 30? years x ~4 x 2 (oversampling) x (sharding factor) < size of population table?
-	- ❓Do we save each hdf out separately? Or append into a mega-dataset?
+	- - ❓Do we save each hdf out separately? Or append into a mega-dataset?
+		- Each time step -> 12,000x~17 (ACS) + 60,000x~17 (CPS)
+			- Using the larger, that's ~17(?) columns by 60k x 30? years x ~4 x 2 (oversampling) x (sharding factor) < 14.4 million rows x 25 columns = 360million cells
+			- Compared to the state table: 350 million people (us pop) x number of columns. Therefore we're pretty confident that the survey datasets are substantially smaller than the state table.
+			- This supports the idea that we can keep the survey datasets in memory and keep appending them. This saves us on I/O.
+				- It would be applied analogous to the standard observer `Counter` object.
 	- ❓Would it be better to save out the data with household address as the index?
 		- This would result in a sparse dataset and also require reshaping the data at each time step - probably too slow
 	- ❓There's a note to oversample by 2x - is this still relevant?
@@ -65,37 +68,52 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 ## Pseudocode
 I think a straightfoward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
 ``` python
-def setup(self, builder: Builder):
-	...
-	builder.event.register_listener(
-		"time_step__prepare",
-		self.on_time_step__prepare
-	)
 
-def on_time_step__prepare(self, event: Event) -> None:
+class BaseObserver:
+	# Record on some subset of timesteps (might be every time step)
+	# Write out to file at end of sim
+	def to_observe:
+		return True # Default; class would overwrite as needed
 	...
-	pop = self.population_view([
-		household id, simulant id, first name, middle initial,
-		last name, age, dob, address, zip code, birthday,
-		guardian 1, guardian 2, guardian 1 address, 
-		guardian 2 address, group quarter
-	])
+	if self.observe:
+		observe
 
-	sampled_households = self.sample_households(pop)
-	respondents = pop.loc[sampled_households]
-	respondents = self.filter_non_responsive(respondents)
-	responses.to_hdf()
 
-def sample_households(pop) -> set[int]:
-	# Ramdomly sample 2x required households (per survey type)
-	# This may not need to be a function if it's simple enough
-	...
-	return sampled_households
+class HouseholdSurveyObserver(BaseObserver):
+	def setup(self, builder: Builder):
+		...
+		builder.event.register_listener(
+			"time_step__prepare",
+			self.on_time_step__prepare
+		)
+		builder.event.register_listener("simulation_end", self.on_sim_end)
 
-def filter_non_responsive(respondents) -> pd.DataFrame:
-	# Remove non-observers per the lookup table logic
-	...
-	return respondents
+	def on_time_step__prepare(self, event: Event) -> None:
+		...
+		pop = self.population_view([
+			household id, simulant id, first name, middle initial,
+			last name, age, dob, address, zip code, birthday,
+			guardian 1, guardian 2, guardian 1 address, 
+			guardian 2 address, group quarter
+		])
+	
+		sampled_households = self.sample_households(pop)
+		respondents = pop.loc[sampled_households]
+		respondents = self.filter_non_responsive(respondents)
+	
+	def sample_households(pop) -> set[int]:
+		# Ramdomly sample 2x required households (per survey type)
+		# This may not need to be a function if it's simple enough
+		...
+		return sampled_households
+	
+	def filter_non_responsive(respondents) -> pd.DataFrame:
+		# Remove non-observers per the lookup table logic
+		...
+		return respondents
+
+	def on_sim_end: # Actually, put in base observer
+		respondents.to_hdf(xxx)
 ```
 
  Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
