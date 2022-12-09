@@ -70,37 +70,38 @@ I think a straightfoward implementation is appropriate here. The only tricky par
 ``` python
 
 class BaseObserver:
-	# Record on some subset of timesteps (might be every time step)
-	# Write out to file at end of sim
-	def to_observe:
-		return True # Default; class would overwrite as needed
-	...
-	if self.observe:
-		observe
+	"""Base class for observing and recording the state table.
+	It maintains a separate dataset per concrete observation and
+	allows for recording/updating on some subset of timesteps
+	(including every time step) and then writing out the results
+	at the end of the sim.
+	"""
+	def __init__(self) -> None:
+		pass ?
 
-
-class HouseholdSurveyObserver(BaseObserver):
 	def setup(self, builder: Builder):
-		...
+		self.responses = builder.population.get_view()
+		# Register the listener to update the responses
 		builder.event.register_listener(
 			"time_step__prepare",
 			self.on_time_step__prepare
 		)
-		builder.event.register_listener("simulation_end", self.on_sim_end)
+		# Register the listener for final write-out
+		builder.event.register_listener(
+			"simulation_end",
+			self.on_sim_end
+		)
 
 	def on_time_step__prepare(self, event: Event) -> None:
-		...
-		pop = self.population_view([
-			household id, simulant id, first name, middle initial,
-			last name, age, dob, address, zip code, birthday,
-			guardian 1, guardian 2, guardian 1 address, 
-			guardian 2 address, group quarter
-		])
-	
-		sampled_households = self.sample_households(pop)
-		respondents = pop.loc[sampled_households]
-		respondents = self.filter_non_responsive(respondents)
-	
+		pop = self.population_view([cols])
+		if self.to_observe:
+			respondents = self.sample_households(pop)
+			responses = pop.loc[respondents]
+			responses = self.filter_non_responsive(responses)
+
+	def to_observe:
+		return True # class will overwrite as needed
+
 	def sample_households(pop) -> set[int]:
 		# Ramdomly sample 2x required households (per survey type)
 		# This may not need to be a function if it's simple enough
@@ -113,7 +114,11 @@ class HouseholdSurveyObserver(BaseObserver):
 		return respondents
 
 	def on_sim_end: # Actually, put in base observer
-		respondents.to_hdf(xxx)
+		responses.to_hdf(xxx)
+
+
+class HouseholdSurveyObserver(BaseObserver):
+	...
 ```
 
  Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
