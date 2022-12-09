@@ -3,7 +3,7 @@
 # Dec 6
 - M: sick
 - T: bmi max threshold; polypill updates
-- W: 
+- W: polypill updates; read through prl/started designing
 - R: 
 - F: 
 - [ ] email end of week update

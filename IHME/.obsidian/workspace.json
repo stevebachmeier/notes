@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/Vivarium/Risk factors.md",
+                "file": "Weekly retro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relative risk",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/Vivarium/Risk factors.md",
+                "file": "Weekly retro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/Vivarium/Risk factors.md",
+                "file": "Weekly retro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/Vivarium/Risk factors.md"
+                "file": "Weekly retro.md"
               }
             }
           },
@@ -149,6 +148,7 @@
   },
   "active": "2407b653acec5dac",
   "lastOpenFiles": [
+    "01 Notes/Vivarium/Risk factors.md",
     "02 Projects/PRL/Checkins/20221208.md",
     "02 Projects/PRL/Design household survey observers.md",
     "02 Projects/CVD/20221002 Outreach.md",
@@ -157,7 +157,6 @@
     "02 Projects/CVD/20221018 Heart failure.md",
     "02 Projects/CVD/20221109 Heart failure.md",
     "Weekly retro.md",
-    "02 Projects/CVD/20220902 Treatment.md",
-    "01 Notes/Sprints.md"
+    "02 Projects/CVD/20220902 Treatment.md"
   ]
 }
