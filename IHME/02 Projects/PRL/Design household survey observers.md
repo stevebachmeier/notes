@@ -47,7 +47,12 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- ❓There's a note to oversample by 2x - is this still relevant?
 	- ❓are the sample rates pre- or post-response filtering? eg should the ACS survey results be 12k houeholds long or less due to non-reponse?
 	- ❓what exactly is needed by stratifying by state?
+		- [ ] Propose that we just do a uniform sample nationwide
 	- ❓Are the non-response rates related at all to the household level?
+	- ❓Are we sampling 60k and 12k per year or per time step?
+	- [ ] where does the 27.6% non-observant rate for cps survey come from?
+	- [ ] What columsn are required for cps survey? Seems like it should have job, etc
+	- [ ] Do the non-response rates need to be configurable? If so, then we should filter away on the backend.
 - Observer will need to also map all of the column IDs to strings, as appropriate (eg address ID to address)
 	- Should this happen once at each time step before observing? Or save out
 
