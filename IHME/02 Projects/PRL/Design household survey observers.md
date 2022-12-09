@@ -33,6 +33,7 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 What are the requirements
 - [ ] As for the noise functions excel sheet (working doc)
 	- Keep this in mind when designing to allow for scaling later
+The th
 
 ## Chat
 ## Pseudocode
