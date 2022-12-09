@@ -28,8 +28,14 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- **NOTE**: Beatrix confirmed that the currently-named `Observers` class is specifically the census observer
 	- Consider removing the state table portion - they used to use it but it's not used anymore (maybe?)
 
-## Tasks
-- [ ] Requirements gathering - make sure I understand what is needed
-	- ask for the noise functions excel sheet (working doc). Might be good to have now while designing
+# Design
+## Requirements
+What are the requirements
+- [ ] As for the noise functions excel sheet (working doc)
+	- Keep this in mind when designing to allow for scaling later
+
+## Chat
+## Pseudocode
+
 
 #Designs/PRL/HouseholdSurveys

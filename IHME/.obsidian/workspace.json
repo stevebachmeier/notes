@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design household survey observers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design household survey observers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design household survey observers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly retro.md"
+                "file": "02 Projects/PRL/Design household survey observers.md"
               }
             }
           },
@@ -148,6 +148,8 @@
   },
   "active": "2407b653acec5dac",
   "lastOpenFiles": [
+    "02 Projects/PRL/Onboarding.md",
+    "Weekly retro.md",
     "01 Notes/Vivarium/Risk factors.md",
     "02 Projects/PRL/Checkins/20221208.md",
     "02 Projects/PRL/Design household survey observers.md",
@@ -155,8 +157,6 @@
     "02 Projects/CVD/20220930 Treatment effects.md",
     "02 Projects/CVD/20221019 Treatment effects.md",
     "02 Projects/CVD/20221018 Heart failure.md",
-    "02 Projects/CVD/20221109 Heart failure.md",
-    "Weekly retro.md",
-    "02 Projects/CVD/20220902 Treatment.md"
+    "02 Projects/CVD/20221109 Heart failure.md"
   ]
 }
