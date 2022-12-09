@@ -2,6 +2,7 @@
 
 - [x] Update polypill implementation per doc change ✅ 2022-12-09
 	- [x] Read all docs/PRs ✅ 2022-12-07
+- [ ] Finish prl observer design
 - [ ] 
 
 # Archived
