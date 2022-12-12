@@ -112,29 +112,43 @@ class BaseObserver:
 			responses = self.filter_non_responsive(responses)
 
 	def to_observe:
-		return True # class will overwrite as needed
+		return True  # overwrite as needed
 
 	def sample_households(pop) -> set[int]:
-		# Ramdomly sample 2x required households (per survey type)
-		# This may not need to be a function if it's simple enough
-		...
-		return sampled_households
+		return pop  # overwrite as needed
 	
 	def filter_non_responsive(respondents) -> pd.DataFrame:
-		# Remove non-observers per the lookup table logic
-		...
-		return respondents
+		return respondents  # overwrite as needed
 
-	def on_sim_end: # Actually, put in base observer
+	def on_sim_end:
 		responses.to_hdf(xxx)
 
 
 class HouseholdSurveyObserver(BaseObserver):
 	...
+
+	def to_observe:
+		return True # class will overwrite as needed
+		
+	def sample_households(pop) -> set[int]:
+		# Ramdomly sample 2x required households (per survey type)
+		# This may not need to be a function if it's simple enough
+		...
+		return sampled_households
+
+	def filter_non_responsive(respondents) -> pd.DataFrame:
+		# Remove non-observers per the lookup table logic
+		...
+		return respondents
 ```
 
  Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
 	- Stratifications: State
 	- Additional (for noise functions): birthday, tracked guardian(s), tracked guardian(s) address(es), type of group quarter 
+
+## Tasks
+1. Build base class
+	- It should by default observe all rows (and all cols?) of the state table on every timestep
+	- 
 
 #Designs/PRL/HouseholdSurveys
