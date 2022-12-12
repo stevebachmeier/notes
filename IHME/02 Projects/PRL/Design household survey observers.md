@@ -87,17 +87,23 @@ class BaseObserver:
 	allows for recording/updating on some subset of timesteps
 	(including every time step) and then writing out the results
 	at the end of the sim.
+
+	TODO: Implement methods as @abstractmethod to prevent lengthy
+	RuntimeErrors (b/c ABC requires methods to be defined upfront)
 	"""
 	def __init__(self) -> None:
-		pass ?
+		# ??
+		pass
 
 	def setup(self, builder: Builder):
 		self.responses = builder.population.get_view()
+		
 		# Register the listener to update the responses
 		builder.event.register_listener(
 			"time_step__prepare",
 			self.on_time_step__prepare
 		)
+		
 		# Register the listener for final write-out
 		builder.event.register_listener(
 			"simulation_end",
@@ -125,21 +131,36 @@ class BaseObserver:
 
 
 class HouseholdSurveyObserver(BaseObserver):
-	...
+	def __init__(self, survey):
+		self.survey = survey
 
-	def to_observe:
-		return True # class will overwrite as needed
+	def setup(self):
 		
-	def sample_households(pop) -> set[int]:
+		self.sampling_rate = SURVEY_RATES["survey"]
+
+	def to_observe(self):
+		return True 
+		
+	def sample_households(self, pop) -> set[int]:
 		# Ramdomly sample 2x required households (per survey type)
 		# This may not need to be a function if it's simple enough
-		...
+		sampled_households = utilities.vectorized_choice(
+			options=set(pop["household_id"]),
+			n_to_choose=xxx,
+			randomness_stream=xxx,
+			additional_key=
+		)
 		return sampled_households
 
 	def filter_non_responsive(respondents) -> pd.DataFrame:
 		# Remove non-observers per the lookup table logic
 		...
 		return respondents
+
+SURVEY_RATES = {
+	"acs": 12000,
+	"cps": 60000,
+}
 ```
 
  Responses: Household number; simulant id; first name; middle initial; last name; age; dob; home address; home zip code
@@ -149,6 +170,7 @@ class HouseholdSurveyObserver(BaseObserver):
 ## Tasks
 1. Build base class
 	- It should by default observe all rows (and all cols?) of the state table on every timestep
-	- 
+	- It should write out observation at end of sim
+- 
 
 #Designs/PRL/HouseholdSurveys
