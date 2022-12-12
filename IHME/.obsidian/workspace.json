@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "01 Notes/Vivarium/Lifecycle phases.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "simulation steps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "f0772871711b931d",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "01 Notes/Vivarium/Lifecycle phases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "01 Notes/Vivarium/Lifecycle phases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md"
+                "file": "01 Notes/Vivarium/Lifecycle phases.md"
               }
             }
           },
@@ -162,15 +161,15 @@
   },
   "active": "2407b653acec5dac",
   "lastOpenFiles": [
+    "01 Notes/Vivarium/Disease models.md",
+    "02 Projects/PRL/Design household survey observers.md",
     "Weekly retro.md",
     "Tasks.md",
     "test file.md",
-    "02 Projects/PRL/Design household survey observers.md",
     "02 Projects/PRL/Onboarding.md",
     "01 Notes/Vivarium/Risk factors.md",
     "02 Projects/PRL/Checkins/20221208.md",
     "02 Projects/CVD/20221002 Outreach.md",
-    "02 Projects/CVD/20220930 Treatment effects.md",
-    "02 Projects/CVD/20221019 Treatment effects.md"
+    "02 Projects/CVD/20220930 Treatment effects.md"
   ]
 }

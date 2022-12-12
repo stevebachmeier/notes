@@ -71,13 +71,22 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- Rajan confirmed this shouldn't be an issue b/c we wouldn't shard by location
 
 ## Followup questions
-- [ ] Sample 12k and 60k per year or per time step?
-- [ ] Is it fine to do a uniform sample nationwide? (in response to the docs saying to stratify by state)
-- [ ]  where does the 27.6% non-observant rate for cps survey come from?
+- [x] Sample 12k and 60k per year or per time step? ✅ 2022-12-12
+	- It's actually per MONTH.
+- [x] Is it fine to do a uniform sample nationwide? (in response to the docs saying to stratify by state) ✅ 2022-12-12
+	- She said she's concerned about over-sampling a state but this is fine for a mvp. That still doesn't make much sense to me.
+- [x] where does the 27.6% non-observant rate for cps survey come from? ✅ 2022-12-12
+	- https://www.bls.gov/osmr/response-rates/home.htm
 - [ ] What columns are required for cps survey? Seems like it should have job, etc
+	- She defered to Nathaniel
 - [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
-- [ ] Should the observations happen on time step prepare or on collect metrics?
+	- Sounds like they should be. Let's go ahead and filter away after.
+	- Might need to check w/ Rajan about what exactly he meant by this.
+- [x] Should the observations happen on time step prepare or on collect metrics? ✅ 2022-12-12
 	- NOTE: The current (census) observer records on time step prepare
+	- on_metrics is fine (she didn't care). NOTE this for Abie.
+
+The thread where these are discussed: https://ihme.slack.com/archives/C02KUQ9LX32/p1670875176621159
 
 ## Pseudocode
 I think a straightforward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
