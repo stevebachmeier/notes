@@ -76,6 +76,8 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 - [ ]  where does the 27.6% non-observant rate for cps survey come from?
 - [ ] What columns are required for cps survey? Seems like it should have job, etc
 - [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
+- [ ] Should the observations happen on time step prepare or on collect metrics?
+	- NOTE: The current (census) observer records on time step prepare
 
 ## Pseudocode
 I think a straightforward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
@@ -100,8 +102,8 @@ class BaseObserver:
 		
 		# Register the listener to update the responses
 		builder.event.register_listener(
-			"time_step__prepare",
-			self.on_time_step__prepare
+			"collect_metrics",
+			self.on_collect_metrics
 		)
 		
 		# Register the listener for final write-out
@@ -110,21 +112,20 @@ class BaseObserver:
 			self.on_sim_end
 		)
 
-	def on_time_step__prepare(self, event: Event) -> None:
-		pop = self.population_view([cols])
+	def on_collect_metrics(self, event: Event) -> None:
 		if self.to_observe:
-			respondents = self.sample_households(pop)
-			responses = pop.loc[respondents]
-			responses = self.filter_non_responsive(responses)
+			@abstractmethod
+			self.do_observation(xxx)
+			
 
-	def to_observe:
+	def do_observation(self):
+		pop = self.population_view([cols])
+		respondents = self.sample_households(pop)
+		responses = pop.loc[respondents]
+		responses = self.filter_non_responsive(responses)
+
+	def to_observe():
 		return True  # overwrite as needed
-
-	def sample_households(pop) -> set[int]:
-		return pop  # overwrite as needed
-	
-	def filter_non_responsive(respondents) -> pd.DataFrame:
-		return respondents  # overwrite as needed
 
 	def on_sim_end:
 		responses.to_hdf(xxx)
@@ -135,7 +136,9 @@ class HouseholdSurveyObserver(BaseObserver):
 		self.survey = survey
 
 	def setup(self):
-		
+		super.setup()
+		# set up lookup tables for non-responses
+		...
 		self.sampling_rate = SURVEY_RATES["survey"]
 
 	def to_observe(self):
@@ -168,9 +171,11 @@ SURVEY_RATES = {
 	- Additional (for noise functions): birthday, tracked guardian(s), tracked guardian(s) address(es), type of group quarter 
 
 ## Tasks
-1. Build base class
-	- It should by default observe all rows (and all cols?) of the state table on every timestep
-	- It should write out observation at end of sim
-- 
+1. Build abstract base class
+	- include doc strings
+	- Consider testing w/ a very simple `do_observation` function
+2. Build out household survey observer class
+	1. Instantiate the two observations
+	2. Subtask: Build out pytest suite for observers
 
 #Designs/PRL/HouseholdSurveys
