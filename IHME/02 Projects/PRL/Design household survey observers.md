@@ -171,6 +171,7 @@ SURVEY_RATES = {
 	- Additional (for noise functions): birthday, tracked guardian(s), tracked guardian(s) address(es), type of group quarter 
 
 ## Tasks
+
 1. Build abstract base class
 	- include doc strings
 	- Consider testing w/ a very simple `do_observation` function
