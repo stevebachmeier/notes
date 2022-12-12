@@ -41,32 +41,44 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 - columns required are all standard state table columns (I think?)
 - Basically every time step we need to sample the state table and save out
 	- - ❓Do we save each hdf out separately? Or append into a mega-dataset?
-		- Each time step -> 12,000x~17 (ACS) + 60,000x~17 (CPS)
-			- Using the larger, that's ~17(?) columns by 60k x 30? years x ~4 x 2 (oversampling) x (sharding factor) < 14.4 million rows x 25 columns = 360million cells
-			- Compared to the state table: 350 million people (us pop) x number of columns. Therefore we're pretty confident that the survey datasets are substantially smaller than the state table.
-			- This supports the idea that we can keep the survey datasets in memory and keep appending them. This saves us on I/O.
-				- It would be applied analogous to the standard observer `Counter` object.
+		- Specifically, is saving these survey results in memory going to oom?
+		- #### Napkin calculation
+			- Each time step -> 12,000x~17 (ACS) + 60,000x~17 (CPS). Let's just compare this to the state table to see if these survey results are going to be obviously too large. 
+			- I count that there are ~17 requested columns. Let's say 30 to account for unknown noise function requirements.
+			- Further, assume 30 year survey, 2x oversampling, 4 people/household, and no sharding
+			  `survey_size <= 30 x [60k*2*30*4] = 30 cols x 14.4 million rows`
+			  - Meanwhile, the state table, assuming 350 million population and likely hundres of rows is obviously much larger
+
+			  **Given that the state table size >> an individual survey size, let's keep in memory and save out only at end. This saves us on I/O and prevents needing to do a bunch of post-processing (note that this is exactly how standard vivarium observers work with the `Counter` object**
+			  
 	- ❓Would it be better to save out the data with household address as the index?
 		- This would result in a sparse dataset and also require reshaping the data at each time step - probably too slow
 	- ❓There's a note to oversample by 2x - is this still relevant?
-	- ❓are the sample rates pre- or post-response filtering? eg should the ACS survey results be 12k houeholds long or less due to non-reponse?
-	- ❓what exactly is needed by stratifying by state?
-		- [ ] Propose that we just do a uniform sample nationwide
+	- ~~❓are the sample rates pre- or post-response filtering? eg should the ACS survey results be 12k houeholds long or less due to non-reponse?~~
+	- ~~❓what exactly is needed by stratifying by state?~~
+		- [ ] ~~Propose that we just do a uniform sample nationwide~~
 	- ❓Are the non-response rates related at all to the household level?
-	- ❓Are we sampling 60k and 12k per year or per time step?
-	- [ ] where does the 27.6% non-observant rate for cps survey come from?
-	- [ ] What columsn are required for cps survey? Seems like it should have job, etc
-	- [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
+	- ~~❓Are we sampling 60k and 12k per year or per time step?~~
 - Observer will need to also map all of the column IDs to strings, as appropriate (eg address ID to address)
 	- Should this happen once at each time step before observing? Or save out
 
 ### Considerations/concerns
 - Space - this is going to be a lot of data. is hdf good enough?
+	- See above hand calc - it should be fine b/c much smaller than state table anyway
 - sampling appropriately in a parallel sim - I don't think there's an issue here but need to be sure
+	- will be fine if we do a uniform nation-wide sampling
 - stratifying by state if different states end up in different sims - do we need to post-aggregate those? Or is it just not an issue?
+	- Rajan confirmed this shouldn't be an issue b/c we wouldn't shard by location
+
+## Followup questions
+- [ ] Sample 12k and 60k per year or per time step?
+- [ ] Is it fine to do a uniform sample nationwide? (in response to the docs saying to stratify by state)
+- [ ]  where does the 27.6% non-observant rate for cps survey come from?
+- [ ] What columns are required for cps survey? Seems like it should have job, etc
+- [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
 
 ## Pseudocode
-I think a straightfoward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
+I think a straightforward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
 ``` python
 
 class BaseObserver:
