@@ -1,12 +1,9 @@
 [[Tasks]]
 
-# Dec 6
-- M: sick
-- T: bmi max threshold; polypill updates
-- W: polypill updates; read through prl/started designing
-- R: polypill design work
-- F: updated med coverage coefficients; polypill
-- [x] email end of week update ✅ 2022-12-09
+## Dec 12
+- household survey design
+- household survey
+- 
 
 # Archived
 ## Nov 21
@@ -21,6 +18,14 @@
 - reviewed heart failure; pytests
 - xxx
 - [x] Email ✅ 2022-12-02
+
+## Dec 6
+- M: sick
+- T: bmi max threshold; polypill updates
+- W: polypill updates; read through prl/started designing
+- R: polypill design work
+- F: updated med coverage coefficients; polypill
+- [x] email end of week update ✅ 2022-12-09
 
 # Old
 Nov 14	M: merged outreach effect, observer, post-processing; bug found/logged in vph default_configuration for LinearScaleUp;
