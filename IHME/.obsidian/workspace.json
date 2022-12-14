@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Cheat sheets/git rebasing.md",
+                "file": "04 Cheat sheets/git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/git rebasing.md",
+                "file": "04 Cheat sheets/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/git rebasing.md",
+                "file": "04 Cheat sheets/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Cheat sheets/git rebasing.md"
+                "file": "04 Cheat sheets/git.md"
               }
             }
           },
@@ -139,24 +139,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "active": "3b609e9a65e06a30",
   "lastOpenFiles": [
-    "Tasks.md",
+    "Pasted image 20221214120953.png",
+    "zAttachments/01 What is git rebase.svg",
+    "zAttachments/Pasted image 20221201182734.png",
+    "zAttachments/Pasted image 20221201202610.png",
+    "zAttachments/Pasted image 20221214120351.png",
+    "04 Cheat sheets/git.md",
     "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
-    "04 Cheat sheets/git rebasing.md",
-    "02 Projects/PRL/Design household survey observers.md",
-    "Weekly retro.md",
-    "01 Notes/Vivarium/Lifecycle phases.md",
-    "01 Notes/Vivarium/Disease models.md",
-    "test file.md",
-    "02 Projects/PRL/Onboarding.md",
-    "01 Notes/Vivarium/Risk factors.md"
+    "04 Cheat sheets/cli.md",
+    "04 Cheat sheets/tmux.md",
+    "04 Cheat sheets/SSH.md"
   ]
 }
