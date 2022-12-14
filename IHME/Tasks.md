@@ -2,8 +2,13 @@
 
 - [x] Update polypill implementation per doc change ✅ 2022-12-09
 	- [x] Read all docs/PRs ✅ 2022-12-07
-- [ ] Finish prl observer design
-- [ ] 
+- [x] Finish prl observer design ✅ 2022-12-13
+- [x] Build base observer class ✅ 2022-12-13
+	- this is required to unblock Abie from working on the census observer
+- [ ] Build household survey observer classes
+- [ ] Build out pytest suite for observers?
+- [ ] Add to model
+- [ ] v&v
 
 # Archived
 
