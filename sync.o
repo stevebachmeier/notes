@@ -3,3 +3,22 @@ Syncing notes
 Already up to date.
 
 Staging changed files
+
+Committing staged files
+[main badee31] Sync - Wed Dec 14 12:30:02 MST 2022
+ 9 files changed, 193 insertions(+), 32 deletions(-)
+ create mode 100644 IHME/.obsidian/plugins/obsidian-dynamic-toc/data.json
+ create mode 100644 IHME/.obsidian/plugins/obsidian-dynamic-toc/main.js
+ create mode 100644 IHME/.obsidian/plugins/obsidian-dynamic-toc/manifest.json
+ create mode 100644 IHME/.obsidian/plugins/obsidian-dynamic-toc/styles.css
+ delete mode 100644 IHME/04 Cheat sheets/git rebasing.md
+ create mode 100644 IHME/04 Cheat sheets/git.md
+ create mode 100644 IHME/zAttachments/01 What is git rebase.svg
+
+Pushing changes to github
+
+Changing back to original dir
+/Users/sbachmei
+
+*** Finished syncing ***
+
