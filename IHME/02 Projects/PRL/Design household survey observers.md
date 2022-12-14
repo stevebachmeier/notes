@@ -91,7 +91,6 @@ The thread where these are discussed: https://ihme.slack.com/archives/C02KUQ9LX3
 ## Pseudocode
 I think a straightforward implementation is appropriate here. The only tricky part I think will be the sampling itself (the current census observers samples a constant 95% of the population but this implements various lookup tables based on sex, age, race, etc to determine non-response)
 ``` python
-
 class BaseObserver:
 	"""Base class for observing and recording the state table.
 	It maintains a separate dataset per concrete observation and
