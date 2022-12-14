@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "04 Cheat sheets/git rebasing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "d227a47940b821ee",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
+                "file": "04 Cheat sheets/git rebasing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
+                "file": "04 Cheat sheets/git rebasing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md"
+                "file": "04 Cheat sheets/git rebasing.md"
               }
             }
           },
@@ -157,17 +146,17 @@
     "width": 205.5,
     "collapsed": true
   },
-  "active": "d227a47940b821ee",
+  "active": "3b609e9a65e06a30",
   "lastOpenFiles": [
-    "04 Cheat sheets/git rebasing.md",
     "Tasks.md",
+    "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
+    "04 Cheat sheets/git rebasing.md",
     "02 Projects/PRL/Design household survey observers.md",
     "Weekly retro.md",
     "01 Notes/Vivarium/Lifecycle phases.md",
     "01 Notes/Vivarium/Disease models.md",
     "test file.md",
     "02 Projects/PRL/Onboarding.md",
-    "01 Notes/Vivarium/Risk factors.md",
-    "02 Projects/PRL/Checkins/20221208.md"
+    "01 Notes/Vivarium/Risk factors.md"
   ]
 }

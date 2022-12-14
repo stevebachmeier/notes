@@ -9,5 +9,7 @@ Now that the `base_observer` is done, I opened a PR and am ready to merge into m
 But then I need to rebase `household_survey_observer` to `main` (I think?)
 
 
+squash first if possible!
+
 
 #Learning/Workflows 
