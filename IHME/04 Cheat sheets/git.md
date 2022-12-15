@@ -29,8 +29,10 @@ What happened was
 5. merged `base_observer` to `main` (ie, released it for use)
 
 I was left with a `household_survey_observer` branch that I wanted to either merge `main` into or  rebase it onto `main`. I did that by:
-1. `git checkout household_survey_observer`
-2. `git rebase main`
+1. `git checkout main`
+2. `git pull`
+3. `git checkout household_survey_observer`
+4. `git rebase main`
 	NOTE: If there are no merge conflicts, this will fast-forward and all will be well. But...
 3. Fix merge conflict as necessary
 	1. `git add <fixed-file>`
