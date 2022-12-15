@@ -5,8 +5,9 @@
 - [x] Finish prl observer design ✅ 2022-12-13
 - [x] Build base observer class ✅ 2022-12-13
 	- this is required to unblock Abie from working on the census observer
-- [ ] Build household survey observer classes
-- [ ] Build out pytest suite for observers?
+- [x] Build household survey observer classes ✅ 2022-12-15
+- [ ] Add `git rebase` notes to the hub
+- [ ] Build out pytest suite for observers
 - [ ] Add to model
 - [ ] v&v
 

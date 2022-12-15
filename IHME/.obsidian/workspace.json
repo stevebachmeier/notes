@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/Vivarium/Time steps.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/Vivarium/Time steps.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/Vivarium/Time steps.md",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/Vivarium/Time steps.md"
+                "file": "Tasks.md"
               }
             }
           },
@@ -148,6 +147,7 @@
   },
   "active": "3b609e9a65e06a30",
   "lastOpenFiles": [
+    "01 Notes/Vivarium/Time steps.md",
     "04 Cheat sheets/git.md",
     "Pasted image 20221214120953.png",
     "zAttachments/01 What is git rebase.svg",
@@ -156,7 +156,6 @@
     "zAttachments/Pasted image 20221214120351.png",
     "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
     "04 Cheat sheets/cli.md",
-    "04 Cheat sheets/tmux.md",
-    "04 Cheat sheets/SSH.md"
+    "04 Cheat sheets/tmux.md"
   ]
 }
