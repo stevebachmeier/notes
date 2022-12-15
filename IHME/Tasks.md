@@ -8,6 +8,7 @@
 - [x] Build household survey observer classes ✅ 2022-12-15
 - [ ] Add `git rebase` notes to the hub📅 2022-12-15 
 - [ ] Build out pytest suite for observers📅 2022-12-15 
+- [ ] review mic-3349 (matt's pytests for resultsstratifier)
 - [ ] Add to model
 - [ ] v&v
 
