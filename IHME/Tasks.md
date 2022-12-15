@@ -6,8 +6,8 @@
 - [x] Build base observer class ✅ 2022-12-13
 	- this is required to unblock Abie from working on the census observer
 - [x] Build household survey observer classes ✅ 2022-12-15
-- [ ] Add `git rebase` notes to the hub
-- [ ] Build out pytest suite for observers
+- [ ] Add `git rebase` notes to the hub📅 2022-12-15 
+- [ ] Build out pytest suite for observers📅 2022-12-15 
 - [ ] Add to model
 - [ ] v&v
 
