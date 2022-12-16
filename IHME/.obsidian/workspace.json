@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "04 Cheat sheets/git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "04 Cheat sheets/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "04 Cheat sheets/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "04 Cheat sheets/git.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "623596cad4019dac",
   "lastOpenFiles": [
-    "04 Cheat sheets/git.md",
     "Tasks.md",
+    "04 Cheat sheets/git.md",
     "zAttachments/01 What is git rebase.svg",
     "zAttachments/01 What is git rebase 1.svg",
     "04 Cheat sheets/cli.md",
