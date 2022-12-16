@@ -56,7 +56,8 @@ One option is to merge. Another is to go through the exact same thing as before 
 5. `git reset --hard HEAD~M` some number of commits (M) to ensure I wipe out enough history to not cause merge conflicts when I rebase. It can be any arbitrarily large number (ie you can wipe out the entire history) since you're rebase and get it all back.
 6. `git rebase household_survey_observer`
 	NOTE: This should result in a perfectly clean rewind/fastforward.
-7. `git push -f` if necessary and appropriate
+7. unstash any stashed work and commit them
+8. `git push -f` if necessary and appropriate
 
 
 
