@@ -187,4 +187,9 @@ SURVEY_RATES = {
 	1. Instantiate the two observations
 	2. Subtask: Build out pytest suite for observers
 
+## PR comments
+- [ ] move the constants in the base class. then they wouldn't need the `get_population_view` or `get_response_schema` ; instead they can be implemented in the abstract class itself and wouln't need to get defined by the user. 
+
+
+
 #Designs/PRL/HouseholdSurveys
