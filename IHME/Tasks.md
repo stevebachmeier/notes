@@ -6,11 +6,14 @@
 - [x] Build base observer class ✅ 2022-12-13
 	- this is required to unblock Abie from working on the census observer
 - [x] Build household survey observer classes ✅ 2022-12-15
-- [ ] Add `git rebase` notes to the hub📅 2022-12-15 
-- [ ] Build out pytest suite for observers📅 2022-12-15 
+- [x] Add `git rebase` notes to the hub 📅 2022-12-15 ✅ 2022-12-16
+- [x] Build out pytest suite for observers 📅 2022-12-15 ✅ 2022-12-16
 - [x] review mic-3349 (matt's pytests for resultsstratifier) ✅ 2022-12-15
-- [ ] Add to model
-- [ ] v&v
+- [ ] Finish implementing HouseholdSurveyObserver PR requested changes from Rajan
+	- refactor input_cols and output_cols as @abstractmethods
+	- Add better pytest
+- [ ] v&v household observer
+- [ ] Finish git hub doc
 
 # Archived
 
