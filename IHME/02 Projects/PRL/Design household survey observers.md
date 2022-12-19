@@ -77,11 +77,13 @@ Two household surveys: American Community Survey (ACS) and Current Population Su
 	- She said she's concerned about over-sampling a state but this is fine for a mvp. That still doesn't make much sense to me.
 - [x] where does the 27.6% non-observant rate for cps survey come from? ✅ 2022-12-12
 	- https://www.bls.gov/osmr/response-rates/home.htm
-- [ ] What columns are required for cps survey? Seems like it should have job, etc
+- [x] What columns are required for cps survey? Seems like it should have job, etc ✅ 2022-12-19
 	- She defered to Nathaniel
-- [ ] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend.
+	- They updated docs a bit - kinda weird but they don't seem to care about jobs.
+- [x] Do the non-response rates need to be configurable? If so, then we should get everybody's response up-front and filter away on the backend. ✅ 2022-12-19
 	- Sounds like they should be. Let's go ahead and filter away after.
 	- Might need to check w/ Rajan about what exactly he meant by this.
+	- **There is lots of work being done on this by the RT. For now, don't filter away; this will likely go into pseudo-people**
 - [x] Should the observations happen on time step prepare or on collect metrics? ✅ 2022-12-12
 	- NOTE: The current (census) observer records on time step prepare
 	- on_metrics is fine (she didn't care). NOTE this for Abie.
