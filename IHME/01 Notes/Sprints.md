@@ -1,17 +1,11 @@
 # Sprint notes
 
-## 101
-- [x] BMI risk_effect equations still refernce rr_id 108 ✅ 2022-12-02
-- [x] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
-	- she requested min threshold of 5
-- [x] Greg requested angina be removed
-	- implemented for now by just commenting out from model_spec
-- [x] Confirm HF equations ✅ 2022-12-07
-- [x] Have syl walk through equations ✅ 2022-12-02
+## 103
+### sprint planning
+- [Design scale-up](../02%20Projects/PRL/Design%20scale-up.md)
+	- We need to start running off more than FL.
+	- For now, run at same scale (ie 2000 people) just with people from all states
 
-#Tasks/Finished 
-
----
 
 # Archived
 ## 100
@@ -130,3 +124,15 @@ CVD edge case clarifications:
 	- We should move them down to the lowest run of medcation ramp
 
 #Tasks/Finished 
+## 101
+- [x] BMI risk_effect equations still refernce rr_id 108 ✅ 2022-12-02
+- [x] BMI range is too large, ~[-20, 96] - Syl will provide thresholds
+	- she requested min threshold of 5
+- [x] Greg requested angina be removed
+	- implemented for now by just commenting out from model_spec
+- [x] Confirm HF equations ✅ 2022-12-07
+- [x] Have syl walk through equations ✅ 2022-12-02
+
+#Tasks/Finished 
+
+---

@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick.md",
+                "file": "01 Notes/Sprints.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68a8ebadef7a06a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick.md",
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick.md",
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick.md"
+                "file": "02 Projects/PRL/Design scale-up.md"
               }
             }
           },
@@ -172,17 +185,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ea6886c5a211760",
+  "active": "68a8ebadef7a06a1",
   "lastOpenFiles": [
+    "01 Notes/Sprints.md",
+    "02 Projects/PRL/Design scale-up.md",
+    "Quick.md",
     "test file.md",
     "Test-canvas.canvas",
     "02 Projects/PRL/Design household survey observers.md",
     "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
     "Tasks.md",
     "04 Cheat sheets/git.md",
-    "zAttachments/01 What is git rebase.svg",
-    "zAttachments/01 What is git rebase 1.svg",
-    "04 Cheat sheets/cli.md",
-    "01 Notes/Vivarium/Time steps.md"
+    "zAttachments/01 What is git rebase.svg"
   ]
 }
