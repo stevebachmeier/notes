@@ -1,3 +1,14 @@
-Polypill changes:
-1. Block F in sbp ramp gets updated (https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_us_cvd/concept_model.html#id55)
-2. sbp medication gets changed now (https://vivarium-research.readthedocs.io/en/latest/models/intervention_models/crm_mgmt/vivarium_polypill.html#affected-outcomes)
+BaseObserver (shared) cols: \[
+	"first_name",
+	"middle_name",
+	"last_name",
+	"age",
+	"date_of_birth",
+	"address_id",
+	"sex",
+	"race_ethnicity",
+	"guardian_1",
+	"guardian_2",
+	"housing_type",
+\]
+
