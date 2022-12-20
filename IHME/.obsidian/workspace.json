@@ -24,15 +24,12 @@
             "id": "5ea6886c5a211760",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Test-canvas.canvas",
-                "viewState": {
-                  "x": -233.47000000000003,
-                  "y": -354.79999999999995,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
+                "file": "Quick.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -103,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test-canvas.canvas",
+                "file": "Quick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test-canvas.canvas",
+                "file": "Quick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test-canvas.canvas"
+                "file": "Quick.md"
               }
             }
           },
@@ -177,10 +174,10 @@
   },
   "active": "5ea6886c5a211760",
   "lastOpenFiles": [
-    "02 Projects/PRL/Design household survey observers.md",
-    "Test-canvas.canvas",
-    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
     "test file.md",
+    "Test-canvas.canvas",
+    "02 Projects/PRL/Design household survey observers.md",
+    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
     "Tasks.md",
     "04 Cheat sheets/git.md",
     "zAttachments/01 What is git rebase.svg",
