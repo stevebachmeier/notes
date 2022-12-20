@@ -19,8 +19,25 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ea6886c5a211760",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Test-canvas.canvas",
+                "viewState": {
+                  "x": -233.47000000000003,
+                  "y": -354.79999999999995,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "Test-canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md",
+                "file": "Test-canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Projects/PRL/Design household survey observers.md"
+                "file": "Test-canvas.canvas"
               }
             }
           },
@@ -139,23 +156,36 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 205.5
   },
-  "active": "623596cad4019dac",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5ea6886c5a211760",
   "lastOpenFiles": [
+    "02 Projects/PRL/Design household survey observers.md",
+    "Test-canvas.canvas",
+    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
+    "test file.md",
     "Tasks.md",
     "04 Cheat sheets/git.md",
-    "02 Projects/PRL/Design household survey observers.md",
     "zAttachments/01 What is git rebase.svg",
     "zAttachments/01 What is git rebase 1.svg",
     "04 Cheat sheets/cli.md",
-    "01 Notes/Vivarium/Time steps.md",
-    "Pasted image 20221214120953.png",
-    "zAttachments/Pasted image 20221201182734.png",
-    "zAttachments/Pasted image 20221201202610.png"
+    "01 Notes/Vivarium/Time steps.md"
   ]
 }
