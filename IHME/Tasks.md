@@ -1,7 +1,15 @@
  [Weekly retro](Weekly%20retro.md)
 
-- [ ] v&v household observer
-- [ ] Finish git hub doc
+- [ ] v&v household observer https://jira.ihme.washington.edu/browse/MIC-3671
+	-  run on main (after Jim merges his thing)
+	-  Run 3x `simulate runs` in parallel on the following pops: 25k, 250k, 2.5million
+	-  Run w/ 100GB. This should be more than enough
+	- Request 24hrs
+	- [ ] Profile the three sruns afterwards on slurmtools
+- [ ] Finish git hub doc https://jira.ihme.washington.edu/browse/MIC-3687
+- [ ] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681
+- [ ] Design SSA observer https://jira.ihme.washington.edu/browse/MIC-3651
+- [ ] Update repo CI builds for python 3.7-3.10 and remove Beatrix https://jira.ihme.washington.edu/browse/MIC-3690
 
 # Archived
 
