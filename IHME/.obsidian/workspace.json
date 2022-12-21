@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "02 Projects/PRL/Design scale-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "02 Projects/PRL/Design scale-up.md"
               }
             }
           },
@@ -186,8 +185,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e8d491c4d2ed33c",
+  "active": "68a8ebadef7a06a1",
   "lastOpenFiles": [
+    "Tasks.md",
     "02 Projects/PRL/Design scale-up.md",
     "01 Notes/Sprints.md",
     "Quick.md",
@@ -195,7 +195,6 @@
     "Test-canvas.canvas",
     "02 Projects/PRL/Design household survey observers.md",
     "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
-    "Tasks.md",
     "04 Cheat sheets/git.md",
     "zAttachments/01 What is git rebase.svg"
   ]
