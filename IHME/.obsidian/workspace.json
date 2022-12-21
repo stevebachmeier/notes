@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "profile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68a8ebadef7a06a1",
+  "active": "1e8d491c4d2ed33c",
   "lastOpenFiles": [
     "Tasks.md",
     "02 Projects/PRL/Design scale-up.md",

@@ -29,14 +29,17 @@ Docs:
 	- Individuals can move; three types:
 		- Move into group quarters; this does not affect this ticket
 		- Move into an existing household; probably sample uniformly at random
+			- The locations exist in the state table at any given time; it's a known limitation that persons can only move to a household in a given shard
 		- Move into a new (unexisting) household
 			- [ ] need to figure out how to generate a new puma and state
+			- Do we need ACS data for this? Nope, we just need a list of the pumas.
 	- Business can move (in same way as households)
 
 # Tasks:
 - [ ] Go see how code currently implements artifact and sampling
 	- [ ] What exactly is loaded?
 	- [ ] What is being sampled?
-- [ ] Think 
+- [ ] Think a lot
+- [ ] 
 
 #Designs/PRL 
