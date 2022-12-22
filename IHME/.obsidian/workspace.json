@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Cheat sheets/git.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/git.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/git.md",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Cheat sheets/git.md"
+                "file": "Tasks.md"
               }
             }
           },
@@ -188,6 +187,7 @@
   },
   "active": "68a8ebadef7a06a1",
   "lastOpenFiles": [
+    "04 Cheat sheets/git.md",
     "02 Projects/PRL/Design scale-up.md",
     "Tasks.md",
     "01 Notes/Sprints.md",
@@ -196,7 +196,6 @@
     "Test-canvas.canvas",
     "02 Projects/PRL/Design household survey observers.md",
     "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
-    "04 Cheat sheets/git.md",
     "zAttachments/01 What is git rebase.svg"
   ]
 }
