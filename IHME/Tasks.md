@@ -6,7 +6,7 @@
 	-  Run w/ 100GB. This should be more than enough
 	- Request 24hrs
 	- [ ] Profile the three sruns afterwards on slurmtools
-- [ ] Finish git hub doc https://jira.ihme.washington.edu/browse/MIC-3687
+- [x] Finish git hub doc https://jira.ihme.washington.edu/browse/MIC-3687 ✅ 2022-12-23
 - [ ] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681
 - [ ] Design SSA observer https://jira.ihme.washington.edu/browse/MIC-3651
 - [ ] Update repo CI builds for python 3.7-3.10 and remove Beatrix https://jira.ihme.washington.edu/browse/MIC-3690
