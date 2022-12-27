@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/Release repos.md",
+                "file": "04 Cheat sheets/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/Release repos.md",
+                "file": "04 Cheat sheets/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Cheat sheets/Release repos.md"
+                "file": "04 Cheat sheets/git.md"
               }
             }
           },
@@ -185,10 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ea6886c5a211760",
+  "active": "13d698990d2e6136",
   "lastOpenFiles": [
-    "04 Cheat sheets/git.md",
     "04 Cheat sheets/Release repos.md",
+    "04 Cheat sheets/git.md",
     "01 Notes/Sprints.md",
     "02 Projects/PRL/Design household survey observers.md",
     "Tasks.md",
