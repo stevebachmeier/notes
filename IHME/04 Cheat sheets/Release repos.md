@@ -18,5 +18,6 @@ Docs (out of date): https://ihmeuw.github.io/vivarium_development/docs/build/htm
     3. Wait for automated tests to clear for all versions of python
     4. PR and merge to main (do not need to get approvals)
     5. Click the "draft new release" button, give it the correct version, click "generate release notes"
+    6. Check that github actions all passed (including "deploy" which is what deploys it to PyPi)
 
 #Learning/Workflows 

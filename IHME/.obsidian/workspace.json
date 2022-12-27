@@ -32,21 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "68a8ebadef7a06a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 Cheat sheets/git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Cheat sheets/git.md",
+                "file": "04 Cheat sheets/Release repos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 Cheat sheets/git.md",
+                "file": "04 Cheat sheets/Release repos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Cheat sheets/git.md"
+                "file": "04 Cheat sheets/Release repos.md"
               }
             }
           },
@@ -184,10 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13d698990d2e6136",
+  "active": "5ea6886c5a211760",
   "lastOpenFiles": [
-    "04 Cheat sheets/Release repos.md",
     "04 Cheat sheets/git.md",
+    "04 Cheat sheets/Release repos.md",
     "01 Notes/Sprints.md",
     "02 Projects/PRL/Design household survey observers.md",
     "Tasks.md",
