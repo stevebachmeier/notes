@@ -1,8 +1,8 @@
 [[Tasks]]
 
-## Dec 12
-- household survey design
-- household survey
+## Dec 26
+- Released new versions of framework repos
+- Fixed issues with vivarium_inputs isort
 - 
 
 # Archived
@@ -26,6 +26,11 @@
 - R: polypill design work
 - F: updated med coverage coefficients; polypill
 - [x] email end of week update ✅ 2022-12-09
+
+## Dec 12
+- household survey design
+- household survey
+- 
 
 # Old
 Nov 14	M: merged outreach effect, observer, post-processing; bug found/logged in vph default_configuration for LinearScaleUp;
