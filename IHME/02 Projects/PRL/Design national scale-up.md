@@ -38,7 +38,15 @@ Docs:
 # Tasks:
 - [ ] Go see how code currently implements artifact and sampling
 	- [ ] What exactly is loaded?
+		- The artifact's `population.households` data is loaded
+			- `population._load_population_data`
+			- This brings in state and puma (household IDs are random and not related to anything at this point)
+			- ❓ Could we loop through/load/concat all of the state-level artifacts at this point? Is this the only time we'd need to do such a thing? Is it even worth the effort compared to just having one artifact for all states?
+			- Current artifact size (with just florida) is 
 	- [ ] What is being sampled?
+		- Households are then sampled from the artifact data (currently all florida)
+			- `population.choose_standard_households` (uses `vectorized_choice`)
+			- 
 - [ ] Think a lot
 - [ ] 
 
