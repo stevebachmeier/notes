@@ -6,7 +6,9 @@ Docs:
 - Household movement: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#household-moves
 - individual moviement: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#individual-moves
 
-# Requirements
+# Initial notes
+
+## Requirements
 - Initialization:
 	- Household addresses should be spread across us
 	- Business addresses across US
@@ -21,7 +23,7 @@ Docs:
 					6. Businesses never share addresses with households (except by coincidence).
 					</blockquote>
  
-# Considerations:
+## Considerations:
 - Artifact:
 	- Option: update artifact to account for everybody in country (ie all ACS data)
 	- Option: separate artifact per location and then change code to deal with that
@@ -43,7 +45,7 @@ Docs:
 			- Do we need ACS data for this? Nope, we just need a list of the pumas.
 	- Business can move (in same way as households)
 
-## Research tasks:
+### Research tasks:
 - [x] Go see how code currently implements artifact and sampling ✅ 2022-12-28
 	- [x] What exactly is loaded? ✅ 2022-12-28
 		- The artifact's `population.households` data is loaded
@@ -55,6 +57,10 @@ Docs:
 		- Households are then sampled from the artifact data (currently all florida)
 			- `population.choose_standard_households` (uses `vectorized_choice`)
 
+---
+
+# Design
+
 ## Jira tickets
 1. Update artifact(s)
 	- Determine whether one big artifact or one per location
@@ -62,10 +68,13 @@ Docs:
 2. Initialize household and business addresses
 	- Sample from all locations for state/puma
 	- **acceptance criteria**: initialize a sim and ensure all locations exist
+	- NOTE: may be a zero-point ticket if we go w/ one large artifact
 3. Update new (household and business) addresses
 	- Update puma/state upon move
 	- **acceptance criteria**: run a sim and ensure people are moving about
----
+4. V&V
+	- **acceptance criteria**: save out addresses at start of sim and then compare at end to make sure people and businesses moved.
+
 ## Proposals
 Early design proposal
 
@@ -73,29 +82,45 @@ Early design proposal
 - People need to move around the country but not yet match actual migration patterns (which will be addressed in MIC-3678 and MIC-3679)
 - There is to be zero correlation between an individual's address and their job address
 - Known limitation: simulants will only move within their shard
-- 
+- No need to scale up/optimize for larger populations
+- No need to design sharding/parallelization
 
 ### Update artifacts
-- The FL artifact is <500MB (including non-population stuff as well). if we assume the same size (wrong assumption) then 52\*500 = 26gb of data. Is that too large for a single artifact? idk.
-- Alternatively, we can perhaps have separate artifacts for each location (just population, presumably, with a single artifact for non-pop stuff?)
-	- Even in this case when it comes time to sample we'd need to read them all in to sample from
-	- Might just be worth doing one big artifact and fixing later if the size ever becomes a problem
-	- ❓ We previously assumed that sampling would be quicker with individual artifacts. But how/why? It seems like we'd still need to read everything in so that we correctly sample given that state pops are vastly different.
+- Update artifact to include a second state's data
+	- The FL artifact is <500MB (including non-population stuff as well). if we assume the same size (wrong assumption) then 52\*500 = 26gb of data. Is that too large for a single artifact? idk.
+- ⚠️ TODO: add all other locations
+- ⚠️ TODO (optional): separate artifacts by location
+	- Alternatively, we can perhaps have separate artifacts for each location (just population, presumably, with a single artifact for non-pop stuff?)
+		- Even in this case when it comes time to sample we'd need to read them all in to sample from
+		- Might just be worth doing one big artifact and fixing later if the size ever becomes a problem
+		- ❓ We previously assumed that sampling would be quicker with individual artifacts. But how/why? It seems like we'd still need to read everything in so that we correctly sample given that state pops are vastly different.
 
 ### Initialize addresses
-- Uniformly sample from list of pumas
-- TODO: 
+- This should just fall out of having a bigger artifact
 
 ### Update addresses
 - Households
-	- `address_id` is already implemented
+	- `address_id` is already implemented ✅
 	- `state` and `puma` - from docs:
 		<blockquote>
 				A new state and PUMA should be selected for the household according to the proportions in the “Destination PUMA proportions by source PUMA” input file <bold>where the state and PUMA columns match the household’s current state and PUMA</bold>. (If the simulation’s catchment area is only certain states/PUMAs, this file should be filtered to only the sources and destinations in the simulation catchment area.) The household should be assigned new physical and mailing addresses, with the same procedure used at initialization.
 			</blockquote>
-		1. Load this file (where is it?)
-		2. 
+	1. Uniformly sample from list of pumas. This is a decent first cut since pumas are supposed to all have ~ the same population.
+	2. Map from the new puma to tate
+	- ⚠️ TODO: Implement the "destination PUMA proportions by source PUMP" input file as mentioned in the doc.
 - Individuals
+		1. Same as for households?
 
+### Integration tests
+- Ensure start and end addresses are not the same (ie people moved)
+- Ensure pumas mapped to correct state? (maybe not desired since we just mapped to begin with)
+- Ensure all states show up in the address? (maybe not desired since population size dependent)
+
+### v&v
+- run a small sim just to be sure no runtime errors
+- pass to RT?
+
+
+---
 
 #Designs/PRL 
