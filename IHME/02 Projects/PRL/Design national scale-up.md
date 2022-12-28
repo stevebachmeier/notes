@@ -69,18 +69,33 @@ Docs:
 ## Proposals
 Early design proposal
 
+**General restrictions / out of scope**
+- People need to move around the country but not yet match actual migration patterns (which will be addressed in MIC-3678 and MIC-3679)
+- There is to be zero correlation between an individual's address and their job address
+- Known limitation: simulants will only move within their shard
+- 
+
 ### Update artifacts
 - The FL artifact is <500MB (including non-population stuff as well). if we assume the same size (wrong assumption) then 52\*500 = 26gb of data. Is that too large for a single artifact? idk.
 - Alternatively, we can perhaps have separate artifacts for each location (just population, presumably, with a single artifact for non-pop stuff?)
 	- Even in this case when it comes time to sample we'd need to read them all in to sample from
 	- Might just be worth doing one big artifact and fixing later if the size ever becomes a problem
-	- ❓ We previously assumed that sampling would be quicker with individual artifacts. But how/why? It seems like we'd still need to read everything in so that we correctly sample 
+	- ❓ We previously assumed that sampling would be quicker with individual artifacts. But how/why? It seems like we'd still need to read everything in so that we correctly sample given that state pops are vastly different.
 
 ### Initialize addresses
-- 
+- Uniformly sample from list of pumas
+- TODO: 
 
 ### Update addresses
-- 
+- Households
+	- `address_id` is already implemented
+	- `state` and `puma` - from docs:
+		<blockquote>
+				A new state and PUMA should be selected for the household according to the proportions in the “Destination PUMA proportions by source PUMA” input file <bold>where the state and PUMA columns match the household’s current state and PUMA</bold>. (If the simulation’s catchment area is only certain states/PUMAs, this file should be filtered to only the sources and destinations in the simulation catchment area.) The household should be assigned new physical and mailing addresses, with the same procedure used at initialization.
+			</blockquote>
+		1. Load this file (where is it?)
+		2. 
+- Individuals
 
 
 #Designs/PRL 
