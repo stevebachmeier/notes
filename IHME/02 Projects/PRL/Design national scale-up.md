@@ -32,29 +32,55 @@ Docs:
 	- Households can move (https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#household-moves)
 		- Households get a new address id. 
 		- A new state and puma are selected according to a proportions file (xxx) **if the state and puma columns match the household's current state and puma**
-		- [ ] Sort out what should happen to puma and state
+		- [x] Sort out what should happen to puma and state ✅ 2022-12-28
+			- Currently there is no logic to change this - only `address_id` is changed
 	- Individuals can move; three types:
 		- Move into group quarters; this does not affect this ticket
 		- Move into an existing household; probably sample uniformly at random
 			- The locations exist in the state table at any given time; it's a known limitation that persons can only move to a household in a given shard
 		- Move into a new (unexisting) household
-			- [ ] need to figure out how to generate a new puma and state
+			- [x] need to figure out how to generate a new puma and state ✅ 2022-12-28
 			- Do we need ACS data for this? Nope, we just need a list of the pumas.
 	- Business can move (in same way as households)
 
-# Tasks:
-- [ ] Go see how code currently implements artifact and sampling
-	- [ ] What exactly is loaded?
+## Research tasks:
+- [x] Go see how code currently implements artifact and sampling ✅ 2022-12-28
+	- [x] What exactly is loaded? ✅ 2022-12-28
 		- The artifact's `population.households` data is loaded
 			- `population._load_population_data`
 			- This brings in state and puma (household IDs are random and not related to anything at this point)
 			- ❓ Could we loop through/load/concat all of the state-level artifacts at this point? Is this the only time we'd need to do such a thing? Is it even worth the effort compared to just having one artifact for all states?
 			- Current artifact size (with just florida) is 376MB - but how much of that is just the pop stuff? I guess we could have one artifact for everything else and then state-specific artifacts for pop?
-	- [ ] What is being sampled?
+	- [x] What is being sampled? ✅ 2022-12-28
 		- Households are then sampled from the artifact data (currently all florida)
 			- `population.choose_standard_households` (uses `vectorized_choice`)
-			- 
-- [ ] Think a lot
-- [ ] 
+
+## Jira tickets
+1. Update artifact(s)
+	- Determine whether one big artifact or one per location
+	- **acceptance criteria**: generate artifact
+2. Initialize household and business addresses
+	- Sample from all locations for state/puma
+	- **acceptance criteria**: initialize a sim and ensure all locations exist
+3. Update new (household and business) addresses
+	- Update puma/state upon move
+	- **acceptance criteria**: run a sim and ensure people are moving about
+---
+## Proposals
+Early design proposal
+
+### Update artifacts
+- The FL artifact is <500MB (including non-population stuff as well). if we assume the same size (wrong assumption) then 52\*500 = 26gb of data. Is that too large for a single artifact? idk.
+- Alternatively, we can perhaps have separate artifacts for each location (just population, presumably, with a single artifact for non-pop stuff?)
+	- Even in this case when it comes time to sample we'd need to read them all in to sample from
+	- Might just be worth doing one big artifact and fixing later if the size ever becomes a problem
+	- ❓ We previously assumed that sampling would be quicker with individual artifacts. But how/why? It seems like we'd still need to read everything in so that we correctly sample 
+
+### Initialize addresses
+- 
+
+### Update addresses
+- 
+
 
 #Designs/PRL 
