@@ -1,10 +1,10 @@
 Goal: A single run should be capable of running on the US (ie all 50 states)
 
 Docs:
-- Household addresses:
-- Business addresses:
-- Household movement:
-- individual moviement:
+- Household addresses: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#components-1-5-age-sex-race-ethnicity-nativity-geographic-location-household-id-and-relationship
+- Business addresses: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#employment-21
+- Household movement: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#household-moves
+- individual moviement: https://vivarium-research.readthedocs.io/en/latest/models/concept_models/vivarium_census_synthdata/concept_model.html#individual-moves
 
 # Requirements
 - Initialization:

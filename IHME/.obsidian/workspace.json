@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ca3ca7389396446f",
+        "id": "36cc1f006768fde4",
         "type": "tabs",
         "children": [
           {
-            "id": "13d698990d2e6136",
+            "id": "db79d2c6c40b77f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Cheat sheets/git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ea6886c5a211760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly retro.md"
+                "file": "02 Projects/PRL/Design national scale-up.md"
               }
             }
           },
@@ -172,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ea6886c5a211760",
+  "active": "db79d2c6c40b77f1",
   "lastOpenFiles": [
-    "04 Cheat sheets/Release repos.md",
     "04 Cheat sheets/git.md",
+    "Weekly retro.md",
+    "04 Cheat sheets/Release repos.md",
     "01 Notes/Sprints.md",
     "02 Projects/PRL/Design household survey observers.md",
     "Tasks.md",
-    "02 Projects/PRL/Design scale-up.md",
+    "02 Projects/PRL/Design national scale-up.md",
     "Quick.md",
     "test file.md",
-    "Test-canvas.canvas",
-    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md"
+    "Test-canvas.canvas"
   ]
 }

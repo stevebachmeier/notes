@@ -2,7 +2,7 @@
 
 ## 103
 ### sprint planning
-- [Design scale-up](../02%20Projects/PRL/Design%20scale-up.md)
+- [Design national scale-up](../02%20Projects/PRL/Design%20national%20scale-up.md)
 	- We need to start running off more than FL.
 	- For now, run at same scale (ie 2000 people) just with people from all states
 
