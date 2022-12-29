@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "01 Notes/Vivarium/Artifacts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "01 Notes/Vivarium/Artifacts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "01 Notes/Vivarium/Artifacts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "01 Notes/Vivarium/Artifacts.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "c67f2a2d892edb33",
   "lastOpenFiles": [
+    "Tasks.md",
     "Weekly retro.md",
     "02 Projects/PRL/Design national scale-up.md",
     "Untitled.md",
@@ -168,7 +169,6 @@
     "02 Projects/PRL/Drawing 2022-12-29 09.24.04.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
-    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
-    "04 Cheat sheets/Vim.md"
+    "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md"
   ]
 }
