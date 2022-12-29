@@ -1,5 +1,9 @@
 # Sprint notes
 
+## 104
+- [ ] check if national health data is fine for all locations (csmr, etc)
+
+
 ## 103
 ### sprint planning
 - [Design national scale-up](../02%20Projects/PRL/Design%20national%20scale-up.md)
@@ -8,6 +12,9 @@
 
 
 # Archived
+
+- [[2022-12-W-53]]
+
 ## 100
 - [x] Are there separate outreach programs for each medication type (ie outreach for sbp adherence and ldlc adherence independently)?
 	- Syl: No, its the same program. The way the math works out the percents are a little different but same program
