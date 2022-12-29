@@ -4,13 +4,6 @@
 - [ ] check if national health data is fine for all locations (csmr, etc)
 
 
-## 103
-### sprint planning
-- [Design national scale-up](../02%20Projects/PRL/Design%20national%20scale-up.md)
-	- We need to start running off more than FL.
-	- For now, run at same scale (ie 2000 people) just with people from all states
-
-
 # Archived
 
 - [[2022-12-W-53]]
@@ -143,3 +136,10 @@ CVD edge case clarifications:
 #Tasks/Finished 
 
 ---
+
+## 103
+### sprint planning
+- [Design national scale-up](../02%20Projects/PRL/Design%20national%20scale-up.md)
+	- We need to start running off more than FL.
+	- For now, run at same scale (ie 2000 people) just with people from all states
+
