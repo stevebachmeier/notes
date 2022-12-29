@@ -1,7 +1,7 @@
  [Weekly retro](Weekly%20retro.md)
 
 - [ ] Add CA to prl artifact
-- [ ] 
+- [ ] Look into github branch protections
 
 # Archived
 
