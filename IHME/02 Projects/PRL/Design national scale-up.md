@@ -62,17 +62,38 @@ Docs:
 # Design
 
 ## Jira tickets
-1. Update artifact(s)
-	- Determine whether one big artifact or one per location
-	- **acceptance criteria**: generate artifact
-2. Initialize household and business addresses
-	- Sample from all locations for state/puma
-	- **acceptance criteria**: initialize a sim and ensure all locations exist
-	- NOTE: may be a zero-point ticket if we go w/ one large artifact
-3. Update new (household and business) addresses
-	- Update puma/state upon move
-	- **acceptance criteria**: run a sim and ensure people are moving about
-4. V&V
+1. Update artifact(s) (2 points)
+	- [ ] Add California population data to artifact
+		- NOTE: if performance becomes an issue we can look into having location-specific artifacts
+	- **acceptance criteria**: 
+		- [ ] generate artifact
+2. Initialize household and business addresses (2 points)
+	- No integration work required with a single artifact design
+	- **acceptance criteria**: 
+		- [ ] integration tests
+3. Update addresses - implementation
+	- household moves
+		- [ ] Uniformly sample from list of PUMAs
+			- Check w/ Zeb if this list exists already
+			- NOTE: PUMAs are designed to have the same population; it should be ok for this first pass to just sample uniformly
+			- NOTE: The docs call for a more complicated puma sampling but that is reserved for future work.
+		- [ ] Map from PUMA to state
+			- Check w/ Zeb if we hvae this map
+			- NOTE: We *could* punt this mapping to post-processing but I think it's useful to have it during the sim to make it easier to debug
+	- business moves - same as for households
+		- [ ] Uniformly sample PUMAs from list
+		- [ ] Map PUMA to state
+	- **acceptance criteria**: Integration tests
+		- [ ] Ensure start and end addresses are not the same (ie people moved)
+			- NOTE: This test may already exist
+		- [ ] Ensure that puma/state does not change if address_id does not change
+		- [ ] Ensure each unique `address_id` has the same immutable puma/state
+		- [ ] Ensure puma maps to correct state
+			- NOTE: This seems silly since we'd just use the same map as was used to assign state, but this is really checking that some other component didn't change one and not the other
+		- [ ] ❓ Ensure all states show up in the address?
+			- This is population dependent so maybe not useful?
+			- 
+1. V&V
 	- **acceptance criteria**: save out addresses at start of sim and then compare at end to make sure people and businesses moved.
 
 ## Proposals
