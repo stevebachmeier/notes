@@ -1,7 +1,7 @@
 # Sprint notes
 
 ## 104
-- [ ] check if national health data is fine for all locations (csmr, etc). Yes it is (https://ihme.slack.com/archives/C02KUQ9LX32/p1672352664332889)
+- [x] check if national health data is fine for all locations (csmr, etc). Yes it is (https://ihme.slack.com/archives/C02KUQ9LX32/p1672352664332889) ✅ 2022-12-29
 - [ ] Check that data_values.PROPORTION_WORKFORCE_EMPLOYED is a constant for the entire country. Right now it's 0.576 for Florida.
 - [ ] 
 
