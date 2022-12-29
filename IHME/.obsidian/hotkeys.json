@@ -7,12 +7,47 @@
       "key": "T"
     }
   ],
-  "editor:toggle-source": [
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-task-archiver:archive-tasks": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-task-archiver:archive-heading-under-cursor": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
     }
   ]
 }

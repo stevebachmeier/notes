@@ -11,8 +11,13 @@
             "id": "c67f2a2d892edb33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tasks.md"
+              }
             }
           },
           {
@@ -149,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbb46da74b0551ee",
+  "active": "c67f2a2d892edb33",
   "lastOpenFiles": [
-    "Pasted image 20221229092820.png",
-    "Untitled.md",
-    "Drawing 2022-12-29 09.24.04.excalidraw.png.md",
+    "Weekly retro.md",
     "02 Projects/PRL/Design national scale-up.md",
+    "Untitled.md",
+    "Pasted image 20221229092820.png",
+    "Drawing 2022-12-29 09.24.04.excalidraw.png.md",
     "02 Projects/PRL/Drawing 2022-12-29 09.24.04.excalidraw.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2022-12-14 11.18.38.excalidraw.md",
     "Excalidraw/Drawing 2022-12-20 09.24.02.excalidraw.md",
-    "04 Cheat sheets/Vim.md",
-    "04 Cheat sheets/Tmux.md"
+    "04 Cheat sheets/Vim.md"
   ]
 }

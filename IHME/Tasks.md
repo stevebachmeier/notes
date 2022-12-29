@@ -1,15 +1,7 @@
  [Weekly retro](Weekly%20retro.md)
 
-- [x] v&v household observer https://jira.ihme.washington.edu/browse/MIC-3671 ✅ 2022-12-27
-	-  run on main (after Jim merges his thing)
-	-  Run 3x `simulate runs` in parallel on the following pops: 25k, 250k, 2.5million
-	-  Run w/ 100GB. This should be more than enough
-	- Request 24hrs
-	- [x] Profile the three sruns afterwards on slurmtools ✅ 2022-12-27
-- [x] Finish git hub doc https://jira.ihme.washington.edu/browse/MIC-3687 ✅ 2022-12-23
-- [ ] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681
-- [ ] Update repo CI builds for python 3.7-3.10 and remove Beatrix https://jira.ihme.washington.edu/browse/MIC-3690
-- [ ] Fix isort/black failing on prl https://jira.ihme.washington.edu/browse/MIC-3713
+- [ ] Add CA to prl artifact
+- [ ] 
 
 # Archived
 
@@ -36,3 +28,14 @@
 	- [x] Finish implementing HouseholdSurveyObserver PR requested changes from Rajan ✅ 2022-12-20
 		- refactor input_cols and output_cols as @abstractmethods
 		- Add better pytest
+- [[2022-12-W-53]]
+	- [x] v&v household observer https://jira.ihme.washington.edu/browse/MIC-3671 ✅ 2022-12-27
+		-  run on main (after Jim merges his thing)
+		-  Run 3x `simulate runs` in parallel on the following pops: 25k, 250k, 2.5million
+		-  Run w/ 100GB. This should be more than enough
+		- Request 24hrs
+		- [x] Profile the three sruns afterwards on slurmtools ✅ 2022-12-27
+	- [x] Finish git hub doc https://jira.ihme.washington.edu/browse/MIC-3687 ✅ 2022-12-23
+	- [x] Update repo CI builds for python 3.7-3.10 and remove Beatrix https://jira.ihme.washington.edu/browse/MIC-3690 ✅ 2022-12-29
+	- [x] Fix isort/black failing on prl https://jira.ihme.washington.edu/browse/MIC-3713 ✅ 2022-12-29
+	- [x] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681 ✅ 2022-12-29

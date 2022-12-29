@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "z_attachments",
-  "newLinkFormat": "relative",
+  "attachmentFolderPath": "zAttachments",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "showFrontmatter": false,
   "showLineNumber": true,
