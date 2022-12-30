@@ -5,13 +5,26 @@ Launching
     1. password: thefutureisnow
 
 Installing/setting up
-1. Go to environment of interest
+1. Go to environment that has jupyter and jupyterlab installed (this is *required*; the central comp script will *not* default to a central env). If needed:
+	1. `pip install jupyter`
+	2. `pip install jupyterlab`
 2. If missing, `mkdir .jupyter`
 3. If missing, `mkdir notebooks`
-4. `pip install jupyter`
-5. `pip install jupyterlab`
-6. If missing, `touch .jupyter/jupyter_notebook_config.py`
-7. Add necessary config settings
-8. Set up keys with `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem`
+4. If missing, `touch .jupyter/jupyter_notebook_config.py`
+```
+# Not to launch a browser on the jupyter server node
+c.NotebookApp.open_browser = False
+# Disable token authentication
+c.NotebookApp.token = ''
+# Disable password authentication
+c.NotebookApp.password = ''
+# Bind all ips
+c.NotebookApp.ip = '*'
+# Set default working directory
+c.NotebookApp.notebook_dir = u'/mnt/share/homes/sbachmei/notebooks/'
+# Set cert file
+c.NotebookApp.certfile = u'/mnt/share/homes/sbachmei/notebooks/mycert.pem'
+```
+5. Set up keys: `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem`
 
 #Learning/Workflows 
