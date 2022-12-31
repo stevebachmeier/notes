@@ -1,7 +1,6 @@
  [Weekly retro](Weekly%20retro.md)
 
-- [ ] Add CA to prl artifact
-- [ ] Look into github branch protections
+- [ ] v&v the CA+FL artifact
 
 # Archived
 
@@ -39,3 +38,5 @@
 	- [x] Update repo CI builds for python 3.7-3.10 and remove Beatrix https://jira.ihme.washington.edu/browse/MIC-3690 ✅ 2022-12-29
 	- [x] Fix isort/black failing on prl https://jira.ihme.washington.edu/browse/MIC-3713 ✅ 2022-12-29
 	- [x] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681 ✅ 2022-12-29
+	- [x] Add CA to prl artifact ✅ 2022-12-30
+	- [x] Look into github branch protections ✅ 2022-12-30
