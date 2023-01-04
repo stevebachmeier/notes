@@ -1,6 +1,5 @@
  [Weekly retro](Weekly%20retro.md)
 
-- [ ] v&v the CA+FL artifact
 
 # Archived
 
@@ -40,3 +39,5 @@
 	- [x] Design scale-up https://jira.ihme.washington.edu/browse/MIC-3681 ✅ 2022-12-29
 	- [x] Add CA to prl artifact ✅ 2022-12-30
 	- [x] Look into github branch protections ✅ 2022-12-30
+- [[2023-01-W-1]]
+	- [x] v&v the CA+FL artifact ✅ 2023-01-03

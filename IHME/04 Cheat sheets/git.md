@@ -2,6 +2,35 @@
 
 ```
 
+# TLDR
+**Squash using `rebase -i` and rebase:
+```
+# Squash if desired
+git checkout develop/some-feature
+git rebase -i `git merge-base HEAD main`
+git push --force-with-lease
+# Pull main
+git checkout main
+git pull origin main
+# Rebase to main
+git checkout develop/some-feature
+git rebase main  # resolve merge conflicts as needed
+git push --force-with-lease
+```
+
+**Squash using `reset` and rebase**
+```
+# Reset and stash the changes
+git checkout develop/some-feature
+git reset --soft `git merge-base HEAD main`
+git stash
+git rebase main
+git stash pop
+git add -u
+git commit -m "commit message"
+git push --force-with-lease
+```
+
 # Rebase
 `git rebase` is the process of moving or combining a sequence of commits to a new base commit. Note that this solves the same problem as `git merge`; both commands integrate changes from one branch into another branch (just in different ways).
 

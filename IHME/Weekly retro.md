@@ -1,8 +1,8 @@
 [[Tasks]]
 
-## Dec 26
-- Released new versions of framework repos
-- Fixed issues with vivarium_inputs isort
+## Jan 2
+- Finished implementing new artifact for CA + FL
+- Added integration tests for initialization
 - 
 
 # Archived
@@ -30,6 +30,11 @@
 ## Dec 12
 - household survey design
 - household survey
+- 
+
+## Dec 26
+- Released new versions of framework repos
+- Fixed issues with vivarium_inputs isort
 - 
 
 # Old
