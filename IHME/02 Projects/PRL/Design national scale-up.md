@@ -70,14 +70,14 @@ Docs:
 
 ## Tasks
 1. Update artifact(s) (2 points)
-	- [ ] Add California population data to artifact
+	- [x] Add California population data to artifact ✅ 2023-01-04
 		- NOTE: if performance becomes an issue we can look into having location-specific artifacts
 	- **acceptance criteria**: 
-		- [ ] generate artifact
+		- [x] generate artifact ✅ 2023-01-04
 2. Initialize household and business addresses (2 points)
 	- No integration work required with a single artifact design
 	- **acceptance criteria**: 
-		- [ ] integration tests
+		- [x] integration tests ✅ 2023-01-04
 3. Update addresses - implementation
 	- household moves
 		- [ ] Uniformly sample from list of PUMAs

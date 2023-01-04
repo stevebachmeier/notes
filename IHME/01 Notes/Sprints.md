@@ -5,7 +5,7 @@
 	- Yes it is (https://ihme.slack.com/archives/C02KUQ9LX32/p1672352664332889) 
 - [x] Check that data_values.PROPORTION_WORKFORCE_EMPLOYED is a constant for the entire country. Right now it's 0.576 for Florida. ✅ 2023-01-03
 	- That number is incorrect but its the right approach: https://ihme.slack.com/archives/C02KUQ9LX32/p1672434298456879
-- [ ] 
+- [ ] Confirm households and business should be able to move within the same puma (sample with replacement)
 
 
 # Archived
