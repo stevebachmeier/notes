@@ -24,7 +24,7 @@ Possibly the most common time to rebase a branch is when you're ready to open a 
 2.  Ensure the latest commit is buildable and all tests pass.
 3.  Squash all of the branch's commits into a single one.
     -   Option: `git rebase -i HEAD~[NUMBER OF COMMITS]`
-    -   Option: `git rebase -i [SHA OF COMMIT YOU BRANCHED FROM]` 
+    -   Option: `git rebase -i 'git merge-base HEAD main'` 
         -   Note: The SHA of the last shared commit can be easily found with `git merge-base HEAD main`
 4.  If the develop branch is already on the remote, force push (because the branches have diverged): `git push origin develop/some-feature --force-with-lease` 
 	- **NOTE: Any forced push can be dangerous if others are working on the same branch since it rewrites history. The `--force-with-lease`  option protects against this but there are still some edge cases where it's possible to overwrite someone else's work.** 
