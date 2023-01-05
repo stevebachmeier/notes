@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"712cc0d43b9704b6","x":-540,"y":-314,"width":397,"height":240,"color":"2","type":"text","text":"Testing the canvas. This is a \"card\". It's basically a place to write out stuff in markdown\n- can do lists\n- [ ] checklists\n1. numbered lists\n\nAlso, you can import existing notes.\n\nOr pics"},
+		{"id":"9fd4ca94c401d09a","x":-64,"y":-341,"width":400,"height":400,"type":"file","file":"04 Cheat sheets/Git.md"},
+		{"id":"039abefec06bbaa8","x":-543,"y":59,"width":399,"height":271,"type":"file","file":"zAttachments/01 What is git rebase.svg"},
+		{"id":"97f96d26a653c440","x":-15,"y":199,"width":250,"height":60,"color":"1","type":"text","text":"double-clicking opens up  new card"},
+		{"id":"5c700aaf2a597565","x":380,"y":-380,"width":871,"height":674,"type":"file","file":"zAttachments/Pasted image 20230105120614.png"}
+	],
+	"edges":[
+		{"id":"0d929708409169c2","fromNode":"712cc0d43b9704b6","fromSide":"right","toNode":"9fd4ca94c401d09a","toSide":"left"},
+		{"id":"24fb044b4e62f37c","fromNode":"712cc0d43b9704b6","fromSide":"bottom","toNode":"039abefec06bbaa8","toSide":"top"}
+	]
+}
