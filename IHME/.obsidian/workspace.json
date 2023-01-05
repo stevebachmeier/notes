@@ -11,12 +11,15 @@
             "id": "c67f2a2d892edb33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Weekly retro.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 49.29000000000005,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -86,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly retro.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly retro.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -160,11 +163,11 @@
   },
   "active": "c67f2a2d892edb33",
   "lastOpenFiles": [
+    "Weekly retro.md",
     "01 Notes/Sprints.md",
     "02 Projects/PRL/Design national scale-up.md",
     "02 Projects/PRL/Design household survey observers.md",
     "04 Cheat sheets/Git.md",
-    "Weekly retro.md",
     "Tasks.md",
     "Quick.md",
     "04 Cheat sheets/Jupyter notebook.md",
