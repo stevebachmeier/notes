@@ -3,7 +3,7 @@
 ## Jan 2
 - Finished implementing new artifact for CA + FL
 - Added integration tests for initialization
-- 
+- Started working on puma/state update implementation
 
 # Archived
 ## Nov 21

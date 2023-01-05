@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/Sprints.md",
+                "file": "Weekly retro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Notes/Sprints.md",
+                "file": "Weekly retro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/Sprints.md",
+                "file": "Weekly retro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/Sprints.md"
+                "file": "Weekly retro.md"
               }
             }
           },
@@ -160,9 +160,9 @@
   },
   "active": "c67f2a2d892edb33",
   "lastOpenFiles": [
+    "01 Notes/Sprints.md",
     "02 Projects/PRL/Design national scale-up.md",
     "02 Projects/PRL/Design household survey observers.md",
-    "01 Notes/Sprints.md",
     "04 Cheat sheets/Git.md",
     "Weekly retro.md",
     "Tasks.md",
