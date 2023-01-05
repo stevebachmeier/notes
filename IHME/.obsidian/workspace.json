@@ -11,15 +11,12 @@
             "id": "a290c61c3ff77346",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "test-canvas.canvas",
-                "viewState": {
-                  "x": 354,
-                  "y": -25,
-                  "zoom": -0.6166713604484944,
-                  "snapToGrid": false
-                }
+                "file": "Quick.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -89,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-canvas.canvas",
+                "file": "Quick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-canvas.canvas",
+                "file": "Quick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-canvas.canvas"
+                "file": "Quick.md"
               }
             }
           },
@@ -161,11 +158,11 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "46d954b5923afe49",
+  "active": "a290c61c3ff77346",
   "lastOpenFiles": [
+    "test-canvas.canvas",
     "Tasks.md",
     "Excalidraw/Drawing 2023-01-05 12.10.01.excalidraw.md",
-    "test-canvas.canvas",
     "Excalidraw/Drawing 2023-01-05 12.06.55.excalidraw.md",
     "zAttachments/Pasted image 20230105120614.png",
     "zAttachments/Pasted image 20221201202610.png",
