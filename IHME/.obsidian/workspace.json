@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initiatives.md"
+                "file": "02 Projects/PRL/Design national scale-up.md"
               }
             }
           },
@@ -172,8 +172,9 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "338555711c7f43fc",
+  "active": "fbb46da74b0551ee",
   "lastOpenFiles": [
+    "Initiatives.md",
     "Quick.md",
     "test-canvas.canvas",
     "Tasks.md",
@@ -182,7 +183,6 @@
     "zAttachments/Pasted image 20230105120614.png",
     "zAttachments/Pasted image 20221201202610.png",
     "Excalidraw/Drawing 2023-01-05 12.03.04.excalidraw.md",
-    "Weekly retro.md",
-    "01 Notes/Sprints.md"
+    "Weekly retro.md"
   ]
 }
