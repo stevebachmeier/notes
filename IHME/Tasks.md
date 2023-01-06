@@ -1,6 +1,5 @@
  [Weekly retro](Weekly%20retro.md)
 
-
 # Archived
 
 - [[2022-12-W-49]]
@@ -41,3 +40,4 @@
 	- [x] Look into github branch protections ✅ 2022-12-30
 - [[2023-01-W-1]]
 	- [x] v&v the CA+FL artifact ✅ 2023-01-03
+	- [x] some task ✅ 2023-01-06

@@ -13,3 +13,9 @@ first time step:
 	- The new `units` object is 75765x3 with duplicated household_ids.
 		- If I remove the dupes it's the expected 74174 long
 		- 
+
+
+``` python
+import pandas pd
+```
+

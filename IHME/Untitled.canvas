@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"5072f08069db3979","x":-657,"y":-368,"width":362,"height":538,"type":"text","text":"lxkfdjlxkfdjhl\n\n\nxdfldijgfh\n\nsadg;iaxdigh"},
+		{"id":"549b984c4d1a3d4d","x":-252,"y":-409,"width":400,"height":400,"type":"file","file":"01 Notes/Vivarium/Disease models.md"},
+		{"id":"5892b7c85d2d41f6","x":-130,"y":75,"width":400,"height":144,"type":"file","file":"zAttachments/Pasted image 20230106162125.png"},
+		{"id":"c208674974fb5a07","x":-885,"y":-501,"width":250,"height":60,"type":"text","text":"#some-tag\n"}
+	],
+	"edges":[
+		{"id":"dc15081a5d6c9c4d","fromNode":"5072f08069db3979","fromSide":"right","toNode":"549b984c4d1a3d4d","toSide":"left"}
+	]
+}

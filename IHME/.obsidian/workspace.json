@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "18befb7265f77a9e",
+        "id": "4fd3492d50ff30d8",
         "type": "tabs",
         "children": [
           {
-            "id": "a290c61c3ff77346",
+            "id": "ec9de44fc21dbb25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "338555711c7f43fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Initiatives.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initiatives.md",
+                "file": "Quick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initiatives.md",
+                "file": "Quick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initiatives.md"
+                "file": "Quick.md"
               }
             }
           },
@@ -172,17 +158,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "338555711c7f43fc",
+  "active": "ec9de44fc21dbb25",
   "lastOpenFiles": [
-    "02 Projects/PRL/Design national scale-up.md",
-    "Initiatives.md",
-    "Quick.md",
-    "test-canvas.canvas",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2023-01-06 16.20.58.excalidraw.md",
     "Tasks.md",
-    "Excalidraw/Drawing 2023-01-05 12.10.01.excalidraw.md",
-    "Excalidraw/Drawing 2023-01-05 12.06.55.excalidraw.md",
-    "zAttachments/Pasted image 20230105120614.png",
-    "zAttachments/Pasted image 20221201202610.png",
-    "Excalidraw/Drawing 2023-01-05 12.03.04.excalidraw.md"
+    "Quick.md",
+    "Weekly retro.md",
+    "New note.md",
+    "01 Notes/Vivarium/Artifacts.md",
+    "Initiatives.md",
+    "02 Projects/PRL/Design national scale-up.md",
+    "test-canvas.canvas"
   ]
 }
