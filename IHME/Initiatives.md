@@ -4,4 +4,4 @@
 		- A `Schema` class that has soft and hard schema check methods
 		- Defines `RequiredColumn`s that specify required col data types and nullability rules
 - [ ] Sort out pycharm remote developing/debugging
-- [ ] 
+- [ ] containerize prl columns
