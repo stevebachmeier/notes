@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "338555711c7f43fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Initiatives.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick.md",
+                "file": "Initiatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick.md",
+                "file": "Initiatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick.md"
+                "file": "Initiatives.md"
               }
             }
           },
@@ -158,8 +172,9 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "a290c61c3ff77346",
+  "active": "338555711c7f43fc",
   "lastOpenFiles": [
+    "Quick.md",
     "test-canvas.canvas",
     "Tasks.md",
     "Excalidraw/Drawing 2023-01-05 12.10.01.excalidraw.md",
@@ -168,7 +183,6 @@
     "zAttachments/Pasted image 20221201202610.png",
     "Excalidraw/Drawing 2023-01-05 12.03.04.excalidraw.md",
     "Weekly retro.md",
-    "01 Notes/Sprints.md",
-    "02 Projects/PRL/Design national scale-up.md"
+    "01 Notes/Sprints.md"
   ]
 }
