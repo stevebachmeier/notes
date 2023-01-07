@@ -1,6 +1,5 @@
 [[Tasks]]
 
-[Quick](Quick.md)
 ## Jan 2
 - Finished implementing new artifact for CA + FL
 - Added integration tests for initialization
