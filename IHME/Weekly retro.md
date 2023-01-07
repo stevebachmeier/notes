@@ -1,9 +1,7 @@
 [[Tasks]]
 
-## Jan 2
-- Finished implementing new artifact for CA + FL
-- Added integration tests for initialization
-- Started working on puma/state update implementation
+## Jan 9
+- 
 
 # Archived
 ## Nov 21
@@ -36,6 +34,15 @@
 - Released new versions of framework repos
 - Fixed issues with vivarium_inputs isort
 - 
+
+## Jan 2
+- Finished implementing new artifact for CA + FL
+- Added integration tests for initialization
+- Started working on puma/state update implementation
+	- Running into difficult due to:
+		- needing to implement individual moves which I forgot to think about
+		- GQ addresses do not map 1:1 with puma/state
+- Presented my notetaking process at Friday's eng discussion
 
 # Old
 Nov 14	M: merged outreach effect, observer, post-processing; bug found/logged in vph default_configuration for LinearScaleUp;

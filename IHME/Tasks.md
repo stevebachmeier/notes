@@ -1,5 +1,8 @@
  [Weekly retro](Weekly%20retro.md)
 
+- [ ] Finish individual moves (gq and then non-reference)
+- [ ] add integration tests for all moves
+
 # Archived
 
 - [[2022-12-W-49]]
