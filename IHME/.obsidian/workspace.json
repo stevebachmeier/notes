@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick.md",
+                "file": "02 Projects/PRL/Design national scale-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick.md"
+                "file": "02 Projects/PRL/Design national scale-up.md"
               }
             }
           },
@@ -160,9 +160,9 @@
   },
   "active": "3556fa7867d3ef1a",
   "lastOpenFiles": [
+    "Quick.md",
     "Weekly retro.md",
     "Tasks.md",
-    "Quick.md",
     "New note.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-01-06 16.32.51.excalidraw.md",
