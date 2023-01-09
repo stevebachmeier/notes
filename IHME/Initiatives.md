@@ -3,5 +3,7 @@
 	- Consider ripping off Covid's design
 		- A `Schema` class that has soft and hard schema check methods
 		- Defines `RequiredColumn`s that specify required col data types and nullability rules
+	- While in there, we'd need to sort out how to deal with initialization of new columns. Prior to being filled in, they are initialized as NaN which is dtype float64. This causes issues when then adding, say, integer dtypes to a column b/c it thinks you're trying to "change" the pop table dtype mid-sim.
+		- Refer to this note: https://github.com/ihmeuw/vivarium/blob/main/src/vivarium/framework/population/population_view.py#L481-L492
 - [ ] Sort out pycharm remote developing/debugging
 - [ ] containerize prl columns
