@@ -7,7 +7,7 @@
 	- That number is incorrect but its the right approach: https://ihme.slack.com/archives/C02KUQ9LX32/p1672434298456879
 - [x] Confirm households and business should be able to move within the same puma (sample with replacement) ✅ 2023-01-04
 	- Yes (https://ihme.slack.com/archives/C02KUQ9LX32/p1672872026235189)
-- [ ] Confirm that it's ok to sample new states/pumas even for gq moves (which effectively "grows" these gq locations).
+- [x] Confirm that it's ok to sample new states/pumas even for gq moves (which effectively "grows" these gq locations). ✅ 2023-01-09
 	- Yes, for this task every movement is dealt with by sampling a new puma/state (https://ihme.slack.com/archives/C02KUQ9LX32/p1673050959604029)
 
 

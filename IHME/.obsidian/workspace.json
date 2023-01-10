@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initiatives.md",
+                "file": "01 Notes/Sprints.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initiatives.md",
+                "file": "01 Notes/Sprints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initiatives.md",
+                "file": "01 Notes/Sprints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initiatives.md"
+                "file": "01 Notes/Sprints.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "3556fa7867d3ef1a",
   "lastOpenFiles": [
+    "Initiatives.md",
     "Tasks.md",
     "Weekly retro.md",
     "01 Notes/Sprints.md",
@@ -168,7 +169,6 @@
     "New note.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-01-06 16.32.51.excalidraw.md",
-    "04 Cheat sheets/Git.md",
-    "04 Cheat sheets/SSH.md"
+    "04 Cheat sheets/Git.md"
   ]
 }
