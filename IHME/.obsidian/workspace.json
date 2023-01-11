@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0cd2a77e72cadb3c",
+        "id": "cf664b720ef5ade9",
         "type": "tabs",
         "children": [
           {
-            "id": "47e8b5243c593993",
+            "id": "60f6fd2d4e3a718d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Initiatives.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Initiatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Initiatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Initiatives.md"
+              }
             }
           },
           {
@@ -150,7 +158,7 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "1e8d491c4d2ed33c",
+  "active": "60f6fd2d4e3a718d",
   "lastOpenFiles": [
     "02 Projects/CVD/20221123 Heart failure.md",
     "Initiatives.md",

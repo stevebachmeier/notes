@@ -7,3 +7,4 @@
 		- Refer to this note: https://github.com/ihmeuw/vivarium/blob/main/src/vivarium/framework/population/population_view.py#L481-L492
 - [ ] Sort out pycharm remote developing/debugging
 - [ ] containerize prl columns
+- [ ] get a grip on prl outputs / versioning
