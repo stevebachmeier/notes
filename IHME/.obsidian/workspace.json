@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/CVD/20221123 Heart failure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/CVD/20221123 Heart failure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initiatives.md",
+                "file": "02 Projects/CVD/20221123 Heart failure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initiatives.md"
+                "file": "02 Projects/CVD/20221123 Heart failure.md"
               }
             }
           },
@@ -158,11 +158,11 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "3556fa7867d3ef1a",
+  "active": "fbb46da74b0551ee",
   "lastOpenFiles": [
+    "Initiatives.md",
     "02 Projects/PRL/Design national scale-up.md",
     "01 Notes/Sprints.md",
-    "Initiatives.md",
     "Tasks.md",
     "Weekly retro.md",
     "Quick.md",
